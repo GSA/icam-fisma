@@ -1,2 +1,2 @@
 # icam-fisma
-A guide to collecting ICAM-related FISMA metrics.
+A guide on how to collect FISMA metrics, and meet the requirements.
