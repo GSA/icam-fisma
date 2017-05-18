@@ -11,6 +11,7 @@ author:
 description: A guide on how to collect FISMA metrics, and meet the requirements.
 
 baseurl: '/icam-fisma'
+branch: gh-pages
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  GSAllewell
