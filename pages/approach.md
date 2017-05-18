@@ -4,4 +4,4 @@ title: Approach
 permalink: /approach 
 ---
 # Approach
-![Approach Graphic](/img/Approach.png)
+![Approach Graphic](img/Approach.png)
