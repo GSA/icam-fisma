@@ -18,7 +18,7 @@ permalink: /navigation
 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
-    <p class="usa-alert-text"><i>The document is meant to provide you with preliminary starting steps for how to collect the information requested by the FISMA metrics. This may not exactly match the needs or environment of every agency but will provide examples of how a given agency might go about collecting this information. If you have any questions or input on how better to collect on the FISMA metrics, please contact <a style="position:relative; z-index:10;"><a href="mailto:icam@gsa.gov">icam@gsa.gov</a></i>.</p>
+    <p class="usa-alert-text"><i>The document is meant to provide you with preliminary starting steps for how to collect the information requested by the FISMA metrics. This may not exactly match the needs or environment of every agency but will provide examples of how a given agency might go about collecting this information. If you have any questions or input on how better to collect on the FISMA metrics, please contact <a style="position:relative; z-index:10;"><a href="mailto:icam@gsa.gov">icam@gsa.gov</a></a></i>.</p>
   </div>
 </div>
 
