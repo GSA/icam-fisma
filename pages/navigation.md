@@ -8,7 +8,7 @@ permalink: /navigation
 
 >![Recycle logo](img/recycle.png){:style="width:5%;"}The recycle icon next to steps throughout the slides highlights when agencies should save the numbers they collect because they will need that information for other metrics. 
 
->![Ribbon logo](img/ribbon.png){:style="width:4%;"} The “why” on the slide is included for informative purposes only and provides insight into why these metrics are important and provide value at the program, agency, and government-wide level.
+>![Ribbon logo](img/ribbon.png){:style="width:4%;"}The “why” on the slide is included for informative purposes only and provides insight into why these metrics are important and provide value at the program, agency, and government-wide level.
 
 >![Pencil logo](img/pencil.png){:style="width:5%;"}Examples are provided on several of the metrics to provide the agency with additional context for interpreting the metric. 
 
@@ -16,7 +16,7 @@ permalink: /navigation
 >![Aha logo](img/aha.png){:style="width:5%;"}Tips are included, when applicable, to give agencies ideas for collection methods.
 
 
->![Focus logo](img/focus.png){:style="width:4%;"} Assumptions, definitions and references are included (when applicable) to provide the agency with additional context and information. 
+>![Focus logo](img/focus.png){:style="width:4%;"}Assumptions, definitions and references are included (when applicable) to provide the agency with additional context and information. 
 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
