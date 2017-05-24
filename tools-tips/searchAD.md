@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Searching Active Directory
-permalink: tricks-tips/searchAD/
-collection: tricks-tips
+permalink: tools-tips/searchAD/
+collection: tools-tips
 ---
 ## Using The GUI
 You can use the find command in Active Directory Users and Groups application to search for network users and groups. This interface allows you to inspect groups and group membership individually.
