@@ -109,15 +109,7 @@ collections:
 
 
 #https://github.com/jekyll/jekyll/issues/2346
-collections:
-  tools-tips:
-    label: "Tools and Tips"
-    permalink: /tools-tips/:path/
-    output: true
-  devconfig:
-    label: "Developer Guides"
-    permalink: /devconfig/:path/
-    output: true
+
 
 
 
