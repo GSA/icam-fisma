@@ -67,11 +67,11 @@ navigation:
   internal: true
   coll: false
 - text: Tools & Tips
-  url: tools
   internal: true
-  coll: false
-- text: CRLs and Certificates
-  url: crls
+  coll: true
+  collname: tools-tips
+- text: Searching Active Directory
+  url: SearchAD
   internal: true
   coll: false
 - text: Trust Stores
@@ -97,14 +97,22 @@ navigation:
   url: contribute
   internal: true
   coll: false
-
+collections:
+  networkconfig:
+    label: "Network Authentication"
+    permalink: /networkconfig/:path/
+    output: true
+  userconfig:
+    label: "User Guides"
+    permalink: /userconfig/:path/
+    output: true
 
 
 #https://github.com/jekyll/jekyll/issues/2346
 collections:
-  userconfig:
-    label: "User Guides"
-    permalink: /userconfig/:path/
+  tools-tips:
+    label: "Tools and Tips"
+    permalink: /tools-tips/:path/
     output: true
   devconfig:
     label: "Developer Guides"
