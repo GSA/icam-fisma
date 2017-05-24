@@ -67,11 +67,11 @@ navigation:
   internal: true
   coll: false
 - text: Tools & Tips
-  url: tools
   internal: true
-  coll: false
-- text: CRLs and Certificates
-  url: crls
+  coll: true
+  collname: tools-tips
+- text: Next Nav
+  url: SearchAD
   internal: true
   coll: false
 - text: Trust Stores
@@ -97,19 +97,19 @@ navigation:
   url: contribute
   internal: true
   coll: false
-
-
-
-#https://github.com/jekyll/jekyll/issues/2346
 collections:
+  tools-tips:
+    label: "Tools and Tips"
+    permalink: /tools-tips/:path/
+    output: true
   userconfig:
     label: "User Guides"
     permalink: /userconfig/:path/
     output: true
-  devconfig:
-    label: "Developer Guides"
-    permalink: /devconfig/:path/
-    output: true
+
+
+#https://github.com/jekyll/jekyll/issues/2346
+
 
 
 

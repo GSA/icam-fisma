@@ -1,10 +1,9 @@
 --- 
 layout: default 
 title: Introduction 
-permalink: /intro
+permalink: /index
 ---
 
-# Introduction
 There are 23 ICAM-related metrics in the FY17 FISMA Metrics, including several new metrics that have not been collected previously. For example:
 * __Average time (in days) to revoke role-based privileges from contractors once it has been determined they are no longer needed__
 * __Number of privileged network users that had their privileges reviewed at least once in the past twelve months__
