@@ -70,7 +70,7 @@ navigation:
   internal: true
   coll: true
   collname: tools-tips
-- text: Searching Active Directory
+- text: Meh
   url: SearchAD
   internal: true
   coll: false
@@ -98,9 +98,9 @@ navigation:
   internal: true
   coll: false
 collections:
-  networkconfig:
-    label: "Network Authentication"
-    permalink: /networkconfig/:path/
+  tools-tips:
+    label: "Tools and Tips"
+    permalink: /tools-tips/:path/
     output: true
   userconfig:
     label: "User Guides"
