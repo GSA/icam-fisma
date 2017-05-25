@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Searching Active Directory
-permalink: tools-tips/searchAD/
+permalink: tools-tips/searchAD
 collection: tools-tips
 ---
 ## Using The GUI
 You can use the find command in Active Directory Users and Groups application to search for network users and groups. This interface allows you to inspect groups and group membership individually.
 
-##PowerShell
+## PowerShell
 PowerShell commands can be used to find members of administrative groups and members of child groups for the domain. Here’s an example command to list the members of a group for the example.gov domain:
 > dsget group "CN=Domain Admins,CN=Users,DC=example,DC=gov" -members
 > Sample results:
@@ -21,6 +21,6 @@ Other scripts can be created to search Active Directory for membership to many g
 
 This command uses variables to improve the readability of the filter. If you want to use the filter above in the GUI, from the find dialog, choose “Custom Search” and “Advanced”. You can’t use variables in there like in PowerShell, so make sure you use the full DN of the group.
 
-Here are some references to help to identify built-in Windows (Active Directory) groups
+Here are some references to help to identify built-in Windows (Active Directory) groups:
 https://technet.microsoft.com/en-us/library/cc978401.aspx
 https://support.microsoft.com/en-us/kb/243330
