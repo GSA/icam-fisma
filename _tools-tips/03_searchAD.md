@@ -9,7 +9,8 @@ You can use the find command in Active Directory Users and Groups application to
 
 ## PowerShell
 PowerShell commands can be used to find members of administrative groups and members of child groups for the domain. Here’s an example command to list the members of a group for the example.gov domain:
->dsget group "CN=Domain Admins,CN=Users,DC=example,DC=gov" -members
+    dsget group "CN=Domain Admins,CN=Users,DC=example,DC=gov" -members
+    
 >Sample results:
 >>"CN=Test Admin,CN=Users,DC=example,DC=gov"
 >>"CN=Administrator,CN=Users,DC=example,DC=gov"
@@ -23,4 +24,5 @@ This command uses variables to improve the readability of the filter. If you wan
 
 Here are some references to help to identify built-in Windows (Active Directory) groups:
 https://technet.microsoft.com/en-us/library/cc978401.aspx
+
 https://support.microsoft.com/en-us/kb/243330
