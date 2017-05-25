@@ -9,15 +9,15 @@ You can use the find command in Active Directory Users and Groups application to
 
 ## PowerShell
 PowerShell commands can be used to find members of administrative groups and members of child groups for the domain. Here’s an example command to list the members of a group for the example.gov domain:
-> dsget group "CN=Domain Admins,CN=Users,DC=example,DC=gov" -members
-> Sample results:
+>dsget group "CN=Domain Admins,CN=Users,DC=example,DC=gov" -members
+>Sample results:
 >>"CN=Test Admin,CN=Users,DC=example,DC=gov"
 >>"CN=Administrator,CN=Users,DC=example,DC=gov"
 
 Other scripts can be created to search Active Directory for membership to many groups at once. Active Directory understands LDAP filters. Here is an example script to find accounts who are part of one or both of the identified groups. It also takes into consideration only users with -admin at the end of their username.
-> $DomainsAdminsDn = (Get-ADGroup 'Domain Admins').DistinguishedName
-> $AdminsDn = (Get-ADGroup 'Administrators').DistinguishedName
-> Get-ADUser -LDAPFilter "(&(SamAccountName=*-admin)(|(memberof=$DomainsAdminsDn)(memberof=$AdminsDn)))"
+>$DomainsAdminsDn = (Get-ADGroup 'Domain Admins').DistinguishedName
+>$AdminsDn = (Get-ADGroup 'Administrators').DistinguishedName
+>Get-ADUser -LDAPFilter "(&(SamAccountName=*-admin)(|(memberof=$DomainsAdminsDn)(memberof=$AdminsDn)))"
 
 This command uses variables to improve the readability of the filter. If you want to use the filter above in the GUI, from the find dialog, choose “Custom Search” and “Advanced”. You can’t use variables in there like in PowerShell, so make sure you use the full DN of the group.
 
