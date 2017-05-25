@@ -23,5 +23,5 @@ Other scripts can be created to search Active Directory for membership to many g
 This command uses variables to improve the readability of the filter. If you want to use the filter above in the GUI, from the find dialog, choose “Custom Search” and “Advanced”. You can’t use variables in there like in PowerShell, so make sure you use the full DN of the group.
 
 Here are some references to help to identify built-in Windows (Active Directory) groups:
-> https://technet.microsoft.com/en-us/library/cc978401.aspx
-> https://support.microsoft.com/en-us/kb/243330
+https://technet.microsoft.com/en-us/library/cc978401.aspx
+https://support.microsoft.com/en-us/kb/243330
