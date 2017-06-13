@@ -71,10 +71,10 @@ navigation:
   coll: true
   collname: tools-tips
 - text: Privileged Accounts and Users
-  url: index.html
+  url: priv-mgmt/index.html
   internal: true
-  coll: true
-  collname: priv-mgmt
+  coll: false
+  # collname: priv-mgmt
 - text: Trust Stores
   url: truststores
   internal: true
