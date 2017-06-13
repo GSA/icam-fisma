@@ -70,7 +70,7 @@ navigation:
   internal: true
   coll: true
   collname: tools-tips
-- text: Next Nav
+- text: Privileged Accounts & Users
   url: SearchAD
   internal: true
   coll: false
