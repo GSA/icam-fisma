@@ -107,7 +107,7 @@ collections:
     label: "User Guides"
     permalink: /userconfig/:path/
     output: true
-  userconfig:
+  priv-mgmt:
     label: "Privileged Accounts & Users"
     permalink: /priv-mgmt/:path/
     output: true
