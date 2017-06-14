@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Additional Information
-permalink: priv-mgmt/More Info
+permalink: priv-mgmt/more-info
 collection: priv-mgmt
 ---
 
