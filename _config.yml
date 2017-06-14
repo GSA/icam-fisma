@@ -72,7 +72,7 @@ navigation:
   coll: true
   collname: tools-tips
 - text: Privileged Accounts & Users
-  url: priv-mgmt/definitions
+  url: priv-mgmt/main-priv
   internal: true
   coll: true
   collname: priv-mgmt
