@@ -12,7 +12,7 @@ collection: priv-mgmt
 
 <b> By Inspection: </b> Occasionally, accounts are assigned elevated privileges individually. You will need to know your user population and find the edge cases.
 
-Take care to remove duplicate accounts from the results! These metrics are counting unique accounts and users. For more information on Levels of Assurance, refer to NIST SP 800-63-2.
+Take care to remove duplicate accounts from the results! These metrics are counting unique accounts and users. For more information on Levels of Assurance, refer to [NIST SP 800-63-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf).
 
 #### Examples:
 For most agencies, network accounts are managed in Active Directory. Examples of shared accounts are accounts used for helpdesk, test, and training or guest accounts.
