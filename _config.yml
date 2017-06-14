@@ -71,7 +71,7 @@ navigation:
   coll: true
   collname: tools-tips
 - text: Privileged Accounts & Users
-  url: index.html
+  url: index
   internal: true
   coll: true
   collname: priv-mgmt
