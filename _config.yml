@@ -67,7 +67,7 @@ navigation:
   internal: true
   coll: false
 - text: Tools & Tips
-  #url: tools-tips/default
+  url: tools-tips/searchAD
   internal: true
   coll: true
   collname: tools-tips
