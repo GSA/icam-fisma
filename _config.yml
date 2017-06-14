@@ -107,7 +107,10 @@ collections:
     label: "User Guides"
     permalink: /userconfig/:path/
     output: true
-
+  userconfig:
+    label: "Privileged Accounts & Users"
+    permalink: /priv-mgmt/:path/
+    output: true
 
 #https://github.com/jekyll/jekyll/issues/2346
 
