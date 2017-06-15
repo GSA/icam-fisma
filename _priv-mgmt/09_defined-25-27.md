@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metrics 2.7, 2.7.1, 2.7.2, 2.5
-permalink: priv-mgmt/defined
+permalink: priv-mgmt/defined-25-27
 collection: priv-mgmt/metrics-25-27
 ---
 ####>![Recycle logo](img/recycle.png){:style="width:5%;"}
