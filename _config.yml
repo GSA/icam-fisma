@@ -108,10 +108,7 @@ collections:
     label: "Privileged Accounts & Users"
     permalink: /priv-mgmt/:path/
     output: true
-
-#https://github.com/jekyll/jekyll/issues/2346
-
-
+  #https://github.com/jekyll/jekyll/issues/2346
 
 
 include:
