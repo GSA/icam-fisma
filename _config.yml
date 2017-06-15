@@ -77,7 +77,7 @@ navigation:
   coll: true
   collname: priv-mgmt
 - text: Metrics 2.7, 2.7.1, 2.7.2, 2.5
-  url: priv-mgmt/metrics-25-27
+  url: priv-mgmt/metrics-25-27/defined
   internal: true
   coll: true
   collname: priv-mgmt/metrics-25-27
