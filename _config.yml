@@ -67,18 +67,20 @@ navigation:
   internal: true
   coll: false
 - text: Tools & Tips
+  url: tools-tips/searchAD
   internal: true
   coll: true
   collname: tools-tips
-- text: Privileged Accounts and Users
-  url: priv-mgmt/index
+- text: Privileged Accounts & Users
+  url: priv-mgmt/main-priv
   internal: true
-  coll: false
-  # collname: priv-mgmt
-- text: Trust Stores
-  url: truststores
+  coll: true
+  collname: priv-mgmt
+- text: Metrics 2.7, 2.7.1, 2.7.2, 2.5
+  url: priv-mgmt/metrics-25-27/defined
   internal: true
-  coll: false
+  coll: true
+  collname: priv-mgmt/metrics-25-27
 - text: Useful Tools
   url: tools
   internal: true
@@ -107,8 +109,14 @@ collections:
     label: "User Guides"
     permalink: /userconfig/:path/
     output: true
-
-
+  priv-mgmt:
+    label: "Privileged Accounts & Users"
+    permalink: /priv-mgmt/:path/
+    output: true
+  priv-mgmt/metrics-25-27:
+    label: "Metrics 2.7, 2.7.1, 2.7.2, 2.5"
+    permalink: /priv-mgmt/metrics-25-27:path/
+    output: true
 #https://github.com/jekyll/jekyll/issues/2346
 
 
