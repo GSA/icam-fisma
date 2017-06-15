@@ -76,11 +76,6 @@ navigation:
   internal: true
   coll: true
   collname: priv-mgmt
-- text: Metrics 2.7, 2.7.1, 2.7.2, 2.5
-  url: priv-mgmt/metrics-25-27/defined
-  internal: true
-  coll: true
-  collname: priv-mgmt/metrics-25-27
 - text: Useful Tools
   url: tools
   internal: true
@@ -113,11 +108,7 @@ collections:
     label: "Privileged Accounts & Users"
     permalink: /priv-mgmt/:path/
     output: true
-  priv-mgmt/metrics-25-27:
-    label: "Metrics 2.7, 2.7.1, 2.7.2, 2.5"
-    permalink: /priv-mgmt/metrics-25-27:path/
-    output: true
-#https://github.com/jekyll/jekyll/issues/2346
+  #https://github.com/jekyll/jekyll/issues/2346
 
 
 
