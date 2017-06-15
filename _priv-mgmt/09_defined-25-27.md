@@ -16,7 +16,7 @@ You’ll use the user information found here again for the next two metrics.
 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
-    <p class="usa-alert-text"><H4>Why is Metric 2.7.2 important?<H4>
+    <p class="usa-alert-text"><H4>Why is Metric 2.7.2 important?</H4>
     Shared accounts generally have less accountability associated than non-shared accounts. Privileged shared accounts run a higher risk to an organization since their compromise might not be noticed as quickly.</p> 
 </div>
 </div>
