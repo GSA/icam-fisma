@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Metrics 2.7, 2.7.1, 2.7.2, 2.5
+title: Collecting Metrics 2.7, 2.7.1, 2.7.2, 2.5
 permalink: priv-mgmt/metrics-25-27/collection
 collection: priv-mgmt/metrics-25-27
 ---
