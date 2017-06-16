@@ -18,3 +18,11 @@ Users who have the option of PIV or Username/Password should also be excluded si
 8. Count the total number of unique users found in Step 7 and record the number for Metric 2.5.2.
 
 333333333333333333333333333333333333333333333
+
+Identify the characteristics that make your agency’s network accounts privileged.
+•These will be the same characteristics you identified in Step 1 of Metric 2.7. You can find examples in slide 8.
+2.Search the user repository (Active Directory) for accounts with the values identified in Step 1.
+•See slide 5 and 6 for examples of techniques to search Active Directory.
+•If you have a good way of directly identifying non-user privileged network accounts, for example a naming convention or group, this may speed up the process.
+3.Since we’re looking for non-user accounts, exclude the accounts you identified in Metric 2.7.
+4.Count the remainder and record the number for Metric 2.8.
