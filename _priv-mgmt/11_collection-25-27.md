@@ -2,7 +2,7 @@
 layout: default
 title: Collecting Metrics 2.7, 2.7.1, 2.7.2, 2.5
 permalink: priv-mgmt/collection-25-27
-collection: priv-mgmt7
+collection: priv-mgmt
 ---
 1. Identify the characteristics that make your agency’s network accounts privileged.
 > See the [Definitions section](definitions) for examples of these characteristics. They are typically groups in Active Directory.
