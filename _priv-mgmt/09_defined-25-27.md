@@ -13,7 +13,7 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
 | 2.7. | Number of privileged network accounts assigned to users. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.1 | Number of privileged shared network accounts. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.2 | Number of individual users assigned to privileged shared network accounts (from 2.7.1.)
-| 2.5. | Number of users with privileged network accounts. (Exclude unprivileged network accounts and non-user accounts.) >![recycle logo](../img/recycle.png){:style="width:2%;"}
+| 2.5. | Number of users with privileged network accounts. (Exclude unprivileged network accounts and non-user accounts.) ![recycle logo](../img/recycle.png){:style="width:3%;"}
 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
