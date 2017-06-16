@@ -14,3 +14,10 @@ This section covers FISMA metrics around unprivileged accounts and users (2.6, 2
 | 2.6.1 | Number of unprivileged shared network accounts. (Exclude privileged network accounts and non-user accounts.)
 | 2.6.2 | Number of individual users assigned to unprivileged shared network accounts (from 2.6.1.)
 | 2.4 | Number of users with unprivileged network accounts. (Exclude privileged network accounts and non-user accounts.)
+
+<div class="usa-alert usa-alert-info">
+  <div class="usa-alert-body">
+    <p class="usa-alert-text"><H4>Save for Later!</H4>
+    You'll use the user information found here again for the next tho metrics.</p> 
+</div>
+</div>
