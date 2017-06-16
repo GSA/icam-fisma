@@ -7,7 +7,7 @@ collection: priv-mgmt
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Identify the characteristics that make your agency’s network accounts privileged.
-> These will be the same characteristics you identified in Step 1 of [Metric 2.7](collection-25-27). You can find examples in [Privileged Accounts and Users](main-priv) and [FISMA Definitions](definitions).
+> These will be the same characteristics you identified in Step 1 of [Metric 2.7](collection-25-27). You can find examples on the [FISMA Definitions](definitions) and [Additional Information](more-info) pages.
 2. Search the user repository (Active Directory) for accounts with the values identified in Step 1.
 > See the [Tools & Tips](../tools-tips/searchAD) section for examples of techniques to search Active Directory.\\
 If you have a good way of directly identifying non-user privileged network accounts, for example a naming convention or group, this may speed up the process. 
