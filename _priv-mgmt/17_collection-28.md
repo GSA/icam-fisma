@@ -13,3 +13,7 @@ collection: priv-mgmt
 If you have a good way of directly identifying non-user privileged network accounts, for example a naming convention or group, this may speed up the process. 
 3. Since we’re looking for non-user accounts, exclude the accounts you identified in [Metric 2.7](collection-25-27).
 4. Count the remainder and record the number for Metric 2.8.
+
+>![Pencil logo](../img/pencil.png)(:style="width:4%)
+Step 4 Example
+If there are 100 privileged accounts identified in Step 2 and 90 accounts identified in metric 2.7, the total privileged, non-user privileged network accounts is 10.
