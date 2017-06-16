@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Definition of Privileged Account Metrics
-permalink: priv-mgmt/defined-25-27
+title: Privileged Accounts and Users
+permalink: priv-mgmt/main-priv
 collection: priv-mgmt
 ---
+This section covers FISMA metrics around privileged accounts and users (2.7, 2.7.1, 2.7.2, 2.5, 2.5.1, 2.5.2, 2.8, 2.9, 2.10, 2.11 and 2.12) 
+
 >![Chart logo](../img/graph.png){:style="width:8%;"}
+
 ####Privileged Network Accounts & Users
+
 | 2.7. | Number of privileged network accounts assigned to users. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.1 | Number of privileged shared network accounts. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.2 | Number of individual users assigned to privileged shared network accounts (from 2.7.1.)
@@ -17,7 +21,9 @@ collection: priv-mgmt
     Shared accounts generally have less accountability associated than non-shared accounts. Privileged shared accounts run a higher risk to an organization since their compromise might not be noticed as quickly.</p> 
 </div>
 </div>
+
 ####Privileged User Authentication
+
 | 2.5.1 | Number of users (from 2.5) technologically required to log onto the network with a two-factor PIV card or other NIST Level of Assurance (LOA) 4 credential.
 | 2.5.2| Number of users (from 2.5) allowed to use username and password as their primary method for network authentication.
 
