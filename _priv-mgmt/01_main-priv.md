@@ -8,12 +8,12 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
 
 >![Chart logo](../img/graph.png){:style="width:8%;"}
 
-####Privileged Network Accounts & Users
+#### Privileged Network Accounts & Users
 
 | 2.7. | Number of privileged network accounts assigned to users. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.1 | Number of privileged shared network accounts. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.2 | Number of individual users assigned to privileged shared network accounts (from 2.7.1.)
-| 2.5. | Number of users with privileged network accounts. (Exclude unprivileged network accounts and non-user accounts.)
+| 2.5. | Number of users with privileged network accounts. (Exclude unprivileged network accounts and non-user accounts.) ![Chart logo](../img/recycle.png){:style="width:3%;"}
 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
@@ -22,7 +22,7 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
 </div>
 </div>
 
-####Privileged User Authentication
+#### [Privileged User Authentication](collection-251-252)
 
 | 2.5.1 | Number of users (from 2.5) technologically required to log onto the network with a two-factor PIV card or other NIST Level of Assurance (LOA) 4 credential.
 | 2.5.2| Number of users (from 2.5) allowed to use username and password as their primary method for network authentication.
@@ -33,3 +33,18 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
     It is important to authenticate credentials when a user accesses a new network. Additionally, users must use PIV to log onto the networks to mitigate attacks such as Pass the Hash.</p> 
 </div>
 </div>
+
+#### Non-User Privileged Network Accounts
+
+|2.8| Number of non-user privileged network accounts. (Exclude unprivileged network accounts and privileged network accounts assigned to a user.)
+
+<div class="usa-alert usa-alert-info">
+  <div class="usa-alert-body">
+    <p class="usa-alert-text"><H4>Why is Metric 2.8 important?</H4>
+    Privileged accounts provide greater access rights than non-privileged accounts. Some of these accounts could be thought of as having the "keys to the kingdom". Although an account may be considered non-user, it may not stop someone from using it to log onto a network if compromised. Since they're not associated with a user, it is more difficult to identify accountability for the account's actions.
+
+It is important to understand the makeup of all types of privileged accounts so you can take steps to avoid the risk of compromise.</p> 
+</div>
+</div>
+
+
