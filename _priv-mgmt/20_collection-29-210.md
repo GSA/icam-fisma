@@ -21,6 +21,7 @@ collection: priv-mgmt
   <div class="usa-alert-body">
     <p class="usa-alert-text"><H4>Step 2 Tip</H4>
     Information System Security Officers (ISSO) are required to review privileged accounts periodically.
+    
 Work with the ISSO responsible for the network accounts to validate that the access was reviewed in the appropriate timeframe, and that the consequent actions were taken.</p> 
 </div>
 </div>
