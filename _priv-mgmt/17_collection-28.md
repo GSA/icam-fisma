@@ -15,17 +15,12 @@ If you have a good way of directly identifying non-user privileged network accou
 4. Count the remainder and record the number for Metric 2.8.
 
 >![Pencil logo](../img/pencil.png)(:style="width:4%)
-Step 4 Example
+
 If there are 100 privileged accounts identified in Step 2 and 90 accounts identified in metric 2.7, the total privileged, non-user privileged network accounts is 10.
 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
-    <p class="usa-alert-text"><H4>Save the result from Metric 2.5 (Step 6)!</H4>
-    You'll use the user information found here again for the next two metrics.</p> 
+    <p class="usa-alert-text"><H4>Step 4 Example</H4>
+    If there are 100 privileged accounts identified in Step 2 and 90 accounts identified in metric 2.7, the total privileged, non-user privileged network accounts is 10.</p> 
 </div>
-</div>
-
-  <div class="usa-alert-body">
-    <p class="usa-alert-text">>![Pencil logo](../img/pencil.png)(:style="width:4%)<H4>Save the result from Metric 2.5 (Step 6)!</H4>
-    You'll use the user information found here again for the next two metrics.</p> 
 </div>
