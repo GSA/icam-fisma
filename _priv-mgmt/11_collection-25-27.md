@@ -20,3 +20,6 @@ collection: priv-mgmt
     You'll use the user information found here again for the next two metrics.</p> 
 </div>
 </div>
+[Test link](/tools-tips/searchAD)
+[Test2](tools-tips/searchAD)
+[Test3](../tools-tips/searchAD)
