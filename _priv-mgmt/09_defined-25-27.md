@@ -5,7 +5,7 @@ permalink: priv-mgmt/defined-25-27
 collection: priv-mgmt
 ---
 >![Chart logo](../img/graph.png){:style="width:8%;"}
-
+####Privileged Network Accounts & Users
 | 2.7. | Number of privileged network accounts assigned to users. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.1 | Number of privileged shared network accounts. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.2 | Number of individual users assigned to privileged shared network accounts (from 2.7.1.)
