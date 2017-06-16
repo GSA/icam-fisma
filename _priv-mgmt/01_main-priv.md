@@ -34,7 +34,7 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
 </div>
 </div>
 
-#### Non-User Privileged Network Accounts
+### [Non-User Privileged Network Accounts](collection-28)
 
 |2.8| Number of non-user privileged network accounts. (Exclude unprivileged network accounts and privileged network accounts assigned to a user.)
 
