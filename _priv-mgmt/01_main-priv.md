@@ -66,8 +66,9 @@ It is important to understand the makeup of all types of privileged accounts so 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
     <p class="usa-alert-text"><H4>Why are metrics 2.11 and 2.12 important?</H4>
-    • Understanding this user population helps to validate that they have the appropriate access across information systems
-    • Issuing the appropriate credentials to user populations is meaningless unless agencies are requiring the use of these credentials</p> 
+    <p>• Understanding this user population helps to validate that they have the appropriate access across information systems</p>
+    <p>• Issuing the appropriate credentials to user populations is meaningless unless agencies are requiring the use of these credentials</p>
+    </p> 
 </div>
 </div>
 
