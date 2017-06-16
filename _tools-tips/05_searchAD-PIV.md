@@ -2,7 +2,7 @@
 layout: default
 title: Searching Active Directory - PIV
 collection: tools-tips
-permalink: tools-tips/05_searchAD-PIV/
+permalink: tools-tips/searchAD-PIV
 ---
 ## How do I know if accounts are required to login with their PIV?
 You can use LDAP filters to search Active Directory for accounts that do or don’t enforce PIV to log onto networks. Here’s an example filter that you can use in a PowerShell script or Active Directory advanced search to find users based on User Account Control – Smart Card Login Enforced on The User:
