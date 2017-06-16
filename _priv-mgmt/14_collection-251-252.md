@@ -4,7 +4,7 @@ title: Collecting Metrics 2.5.1 & 2.5.2
 permalink: priv-mgmt/collection-251-252
 collection: priv-mgmt
 ---
->![Chart logo](../img/graph.png){:style="width:5%;"}
+>![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Start with the users identified in [Metric 2.5](collection-25-27).
 2. Exclude users that can log onto the network with anything other than a PIV / LOA 4 credential. (Examples: One time password tokens, SMS PIN & Password, Username and Password).
