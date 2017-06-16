@@ -18,6 +18,6 @@ This section covers FISMA metrics around unprivileged accounts and users (2.6, 2
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
     <p class="usa-alert-text"><H4>Save for Later!</H4>
-    You'll use the user information found here again for the next tho metrics.</p> 
+    You'll use the user information found here again for the next two metrics.</p> 
 </div>
 </div>
