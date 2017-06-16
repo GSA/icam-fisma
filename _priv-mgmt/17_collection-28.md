@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Collecting Metrics 2.5.1 & 2.5.2
-permalink: priv-mgmt/collection-251-252
+title: Collecting Metric 2.8
+permalink: priv-mgmt/collection-28
 collection: priv-mgmt
 ---
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
