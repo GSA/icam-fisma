@@ -76,10 +76,11 @@ navigation:
   internal: true
   coll: true
   collname: priv-mgmt
-- text: Useful Tools
-  url: tools
+- text: Unprivileged Accounts & Users
+  url: unpriv-mgmt/main-unpriv
   internal: true
-  coll: false
+  coll: true
+  collname: unpriv-mgmt
 #https://github.com/jekyll/jekyll/issues/2346
 #- text: Developer Guides
 #  url: devconfig/index/
@@ -107,6 +108,10 @@ collections:
   priv-mgmt:
     label: "Privileged Accounts & Users"
     permalink: /priv-mgmt/:path/
+    output: true
+  unpriv-mgmt:
+    label: "Unprivileged Accounts & Users"
+    permalink: /unpriv-mgmt/:path/
     output: true
   #https://github.com/jekyll/jekyll/issues/2346
 
