@@ -5,6 +5,7 @@ permalink: priv-mgmt/collection-25-27
 collection: priv-mgmt
 ---
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
+
 1. Identify the characteristics that make your agency’s network accounts privileged.
 > See the [Definitions section](definitions) for examples of these characteristics. They are typically groups in Active Directory.
 2. Search for accounts with the values identified in Step 1.
