@@ -18,7 +18,7 @@ collection: priv-mgmt
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
     <p class="usa-alert-text"><H4>Don't Forget:</H4>
-    •  Network Administrators</br> 
+    <br>•  Network Administrators</br> 
     •  Database Administrators</br>
     •  UNIX System Administrators</br> 
     •  Mainframe Administrators</br>
