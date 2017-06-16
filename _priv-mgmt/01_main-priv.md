@@ -8,7 +8,7 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
 
 >![Chart logo](../img/graph.png){:style="width:8%;"}
 
-#### Privileged Network Accounts & Users
+### [Privileged Network Accounts & Users](collection-25-27)
 
 | 2.7. | Number of privileged network accounts assigned to users. (Exclude unprivileged network accounts and non-user accounts.)
 | 2.7.1 | Number of privileged shared network accounts. (Exclude unprivileged network accounts and non-user accounts.)
@@ -22,7 +22,7 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
 </div>
 </div>
 
-#### [Privileged User Authentication](collection-251-252)
+### [Privileged User Authentication](collection-251-252)
 
 | 2.5.1 | Number of users (from 2.5) technologically required to log onto the network with a two-factor PIV card or other NIST Level of Assurance (LOA) 4 credential.
 | 2.5.2| Number of users (from 2.5) allowed to use username and password as their primary method for network authentication.
@@ -34,7 +34,7 @@ This section covers FISMA metrics around privileged accounts and users (2.7, 2.7
 </div>
 </div>
 
-#### Non-User Privileged Network Accounts
+### [Non-User Privileged Network Accounts](collection-28)
 
 |2.8| Number of non-user privileged network accounts. (Exclude unprivileged network accounts and privileged network accounts assigned to a user.)
 
