@@ -18,12 +18,12 @@ collection: priv-mgmt
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
     <p class="usa-alert-text"><H4>Don't Forget:</H4>
-    <br>•  Network Administrators</br> 
-    •  Database Administrators</br>
-    •  UNIX System Administrators</br> 
-    •  Mainframe Administrators</br>
-    •  Web Server Administrators</br> 
-    •  Email Server Administrators</br>
+    •  Network Administrators 
+    <br>•  Database Administrators
+    <br>•  UNIX System Administrators
+    <br>•  Mainframe Administrators
+    <br>•  Web Server Administrators
+    <br>•  Email Server Administrators
     </p>
 </div>
 </div>
