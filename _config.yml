@@ -81,6 +81,11 @@ navigation:
   internal: true
   coll: true
   collname: unpriv-mgmt
+- text: Access & Credential Revocation
+  url: cred-revoke/main-revoke
+  internal: true
+  coll: true
+  collname: cred-revoke
 #https://github.com/jekyll/jekyll/issues/2346
 #- text: Developer Guides
 #  url: devconfig/index/
@@ -113,6 +118,11 @@ collections:
     label: "Unprivileged Accounts & Users"
     permalink: /unpriv-mgmt/:path/
     output: true
+  cred-revoke:
+    label: "Access & Credential Revocation"
+    permalink: /cred-revoke/:path/
+    output: true
+    
   #https://github.com/jekyll/jekyll/issues/2346
 
 
