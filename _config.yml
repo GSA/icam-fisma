@@ -81,7 +81,7 @@ navigation:
   internal: true
   coll: true
   collname: unpriv-mgmt
-- text: Credential Revocation
+- text: Access & Credential Revocation
   url: cred-revoke/main-revoke
   internal: true
   coll: true
@@ -119,7 +119,7 @@ collections:
     permalink: /unpriv-mgmt/:path/
     output: true
   cred-revoke:
-    label: "Credential Revocation"
+    label: "Access & Credential Revocation"
     permalink: /cred-revoke/:path/
     output: true
     
