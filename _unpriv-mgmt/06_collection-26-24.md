@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Collecting Metrics 2.6, 2.6.1, 2.6.2, 2.4:
+title: Collecting Metrics 2.6, 2.6.1, 2.6.2, 2.4
 permalink: unpriv-mgmt/collection-26-24
 collection: unpriv-mgmt
 ---
