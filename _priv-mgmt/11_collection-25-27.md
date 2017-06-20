@@ -4,6 +4,7 @@ title: Collecting Metrics 2.7, 2.7.1, 2.7.2, 2.5
 permalink: priv-mgmt/collection-25-27
 collection: priv-mgmt
 ---
+## Privileged Network Accounts and Users
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Identify the characteristics that make your agency’s network accounts privileged.
