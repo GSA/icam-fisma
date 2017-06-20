@@ -94,7 +94,7 @@ navigation:
 - text: Data Protection & Remote Access
   url: remote
   internal: true
-  coll:false
+  coll: false
 #https://github.com/jekyll/jekyll/issues/2346
 #- text: Developer Guides
 #  url: devconfig/index/
