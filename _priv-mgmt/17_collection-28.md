@@ -4,6 +4,7 @@ title: Collecting Metric 2.8
 permalink: priv-mgmt/collection-28
 collection: priv-mgmt
 ---
+## Non-User Privileged Network Accounts
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Identify the characteristics that make your agency’s network accounts privileged.
