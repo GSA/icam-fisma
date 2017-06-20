@@ -7,7 +7,6 @@ collection: unpriv-mgmt
 ## Privileged User Authentication
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
-## Unprivileged Network Accounts and Users
 1. Identify the characteristics that make your agency’s network accounts privileged. We’ll exclude those accounts from this metric.
 > • See the [FISMA Definitions](../priv-mgmt/definitions) and [Additional Information](../priv-mgmt/more-info) pages for examples of these characteristics. They are typically Groups in Active Directory.
 2. Search for and exclude accounts with the values identified in Step 1.

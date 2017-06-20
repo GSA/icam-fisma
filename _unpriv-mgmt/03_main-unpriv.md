@@ -21,3 +21,9 @@ This section covers FISMA metrics around unprivileged accounts and users (2.6, 2
     You'll use the user information found here again for the next two metrics.</p> 
 </div>
 </div>
+
+### [Unprivileged Network Accounts & Users](collection-241-242)
+
+| 2.4.1 | Number of users (from 2.4) technologically required to log onto the network with a two-factor PIV card or other NIST Level of Assurance (LOA) 4 credential.
+| 2.4.2 | Number of users (from 2.4) allowed to use username and password as their primary method for network authentication.
+
