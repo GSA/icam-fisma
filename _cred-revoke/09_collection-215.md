@@ -14,9 +14,9 @@ collection: cred-revoke
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
     <p class="usa-alert-text"><H4>Step 2 Examples</H4>
-    These requests may be:\\
-• paper based\\
-• help desk tickets\\
-• requested through an automated identity management system</p> 
+    These requests may be:<br>
+    • paper based <br>
+    • help desk tickets<br>
+    • requested through an automated identity management system</p> 
 </div>
 </div>
