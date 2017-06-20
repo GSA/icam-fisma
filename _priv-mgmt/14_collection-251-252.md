@@ -4,6 +4,7 @@ title: Collecting Metrics 2.5.1 & 2.5.2
 permalink: priv-mgmt/collection-251-252
 collection: priv-mgmt
 ---
+## Privileged User Authentication
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Start with the users identified in [Metric 2.5](collection-25-27).
