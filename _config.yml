@@ -86,6 +86,15 @@ navigation:
   internal: true
   coll: true
   collname: cred-revoke
+- text: Physical Acccess Control Systems (PACS)
+  url: pacs/main-pacs
+  internal: true
+  coll: true
+  collname: pacs
+- text: Data Protection & Remote Access
+  url: remote
+  internal: true
+  coll: false
 #https://github.com/jekyll/jekyll/issues/2346
 #- text: Developer Guides
 #  url: devconfig/index/
@@ -122,7 +131,10 @@ collections:
     label: "Access & Credential Revocation"
     permalink: /cred-revoke/:path/
     output: true
-    
+  pacs:
+    label: "Physical Access Control Systems (PACS)"
+    permalink: /pacs/:path/
+    output: true    
   #https://github.com/jekyll/jekyll/issues/2346
 
 
