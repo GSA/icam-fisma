@@ -4,6 +4,7 @@ title: Collecting Metrics 2.9 & 2.10
 permalink: priv-mgmt/collection-29-210
 collection: priv-mgmt
 ---
+## Privileged User Review, Adjustments, & Termination
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Identify the users and their accounts from [Metric 2.5](collection-25-27).
