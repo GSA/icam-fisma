@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Access & Credential Revocation
-permalink: cred-revoke/main-privrevoke
+permalink: cred-revoke/main-revoke
 ---
 This section covers FISMA metrics around access & credential revocation (2.13, 2.14, and 2.15).
 >![Chart logo](../img/graph.png){:style="width:8%;"}
