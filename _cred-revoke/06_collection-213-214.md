@@ -16,13 +16,12 @@ collection: cred-revoke
 7. For each request, count the number of days from the request until fulfilment and total across all requests identified in Step 2.
 8. Divide the total number of days counted in Step 3 by the number of requests identified in Step 2.
 
-
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
     <p class="usa-alert-text"><H4>Step 2 Examples</H4>
-    These requests may be:\\
-• paper based\\
-• help desk tickets\\
-• requested through an automated identity management system</p> 
+    These requests may be:<br>
+    • paper based <br>
+    • help desk tickets<br>
+    • requested through an automated identity management system</p> 
 </div>
 </div>
