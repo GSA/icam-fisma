@@ -96,6 +96,10 @@ navigation:
   internal: true
   coll: true
   collname: data-protect
+- text: Next Steps
+  url: next
+  internal: true
+  coll: false
 #https://github.com/jekyll/jekyll/issues/2346
 #- text: Developer Guides
 #  url: devconfig/index/
