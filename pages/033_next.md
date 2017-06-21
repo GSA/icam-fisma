@@ -4,7 +4,7 @@ title: Next Steps
 permalink: next
 ---
 ## Next Steps
->![Checkered flag logo](../img/flag.png){:style="width:5%;"}
+>![Checkered flag logo](../img/flag.png){:style="width:7%;"}
 
 Congratulations! You’ve collected all the data for the FISMA ICAM-related metrics.
 
