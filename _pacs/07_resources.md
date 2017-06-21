@@ -26,7 +26,7 @@ How do I look through my PACS software in an HID Validation Solution Environment
     <p class="usa-alert-text"><H4>Need More Information?</H4>
     • <a href="https://www.idmanagement.gov/approved-products-list/">FIPS 201 Approved Products List]</a><br>
     • <a href="https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy2006/m06-18.pdf">OMB M-06-18</a><br>
-    • <a href="https://www.dhs.gov/sites/default/files/publications/ISC_Risk-Management-Process_Aug_2013.pdf)">DHS ISC Risk Management Process</a></p> 
+    • <a href="https://www.dhs.gov/sites/default/files/publications/ISC_Risk-Management-Process_Aug_2013.pdf">DHS ISC Risk Management Process</a></p> 
 </div>
 </div>
 
