@@ -76,8 +76,23 @@ navigation:
   internal: true
   coll: true
   collname: priv-mgmt
-- text: Useful Tools
-  url: tools
+- text: Unprivileged Accounts & Users
+  url: unpriv-mgmt/main-unpriv
+  internal: true
+  coll: true
+  collname: unpriv-mgmt
+- text: Access & Credential Revocation
+  url: cred-revoke/main-revoke
+  internal: true
+  coll: true
+  collname: cred-revoke
+- text: Physical Acccess Control Systems (PACS)
+  url: pacs/main-pacs
+  internal: true
+  coll: true
+  collname: pacs
+- text: Data Protection & Remote Access
+  url: remote
   internal: true
   coll: false
 #https://github.com/jekyll/jekyll/issues/2346
@@ -108,6 +123,18 @@ collections:
     label: "Privileged Accounts & Users"
     permalink: /priv-mgmt/:path/
     output: true
+  unpriv-mgmt:
+    label: "Unprivileged Accounts & Users"
+    permalink: /unpriv-mgmt/:path/
+    output: true
+  cred-revoke:
+    label: "Access & Credential Revocation"
+    permalink: /cred-revoke/:path/
+    output: true
+  pacs:
+    label: "Physical Access Control Systems (PACS)"
+    permalink: /pacs/:path/
+    output: true    
   #https://github.com/jekyll/jekyll/issues/2346
 
 

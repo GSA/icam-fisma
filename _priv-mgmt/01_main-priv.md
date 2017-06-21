@@ -47,4 +47,29 @@ It is important to understand the makeup of all types of privileged accounts so 
 </div>
 </div>
 
+### [Privileged User Review, Adjustments, & Termination](collection-29-210)
+
+|2.9| Number of privileged network users (from 2.5) that had their privileges reviewed at least once in the past twelve months.
+|2.10| Number of privileged network users (from 2.5) that had their privileges adjusted or terminated in the past 12 months after a review.
+
+<div class="usa-alert usa-alert-info">
+  <div class="usa-alert-body">
+    <p class="usa-alert-text"><H4>Why are metrics 2.9 and 2.10 important?</H4>
+    A user needs the correct level of access to the right resources to fulfill their job function. Reviewing and correcting access supports least privilege, and policies such as segregation of duties.</p> 
+</div>
+</div>
+
+### [Users with Privileged Local System Accounts and Users Required to Use PIV/LOA 4](collection-211-212)
+|2.11| Number of users with privileged local system accounts.
+|2.12| Number of users with privileged local system accounts (from 2.11) technologically required to log onto the system with a two-factor PIV card or other NIST LOA 4 credential.
+
+<div class="usa-alert usa-alert-info">
+  <div class="usa-alert-body">
+    <p class="usa-alert-text"><H4>Why are metrics 2.11 and 2.12 important?</H4>
+    <p>• Understanding this user population helps to validate that they have the appropriate access across information systems</p>
+    <p>• Issuing the appropriate credentials to user populations is meaningless unless agencies are requiring the use of these credentials</p>
+    </p> 
+</div>
+</div>
+
 
