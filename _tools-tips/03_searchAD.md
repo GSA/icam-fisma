@@ -24,6 +24,6 @@ This command uses variables to improve the readability of the filter. If you wan
 
 Here are some references to help to identify built-in Windows (Active Directory) groups:
 
-https://technet.microsoft.com/en-us/library/cc978401.aspx
+[https://technet.microsoft.com/en-us/library/cc978401.aspx](https://technet.microsoft.com/en-us/library/cc978401.aspx)
 
-https://support.microsoft.com/en-us/kb/243330
+[https://support.microsoft.com/en-us/kb/243330](https://support.microsoft.com/en-us/kb/243330)
