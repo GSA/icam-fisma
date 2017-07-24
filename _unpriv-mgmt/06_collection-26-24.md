@@ -4,7 +4,7 @@ title: Collecting Metrics 2.6, 2.6.1, 2.6.2, 2.4
 permalink: unpriv-mgmt/collection-26-24
 collection: unpriv-mgmt
 ---
-## Privileged User Authentication
+## Unrivileged User Authentication
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Identify the characteristics that make your agency’s network accounts privileged. We’ll exclude those accounts from this metric.
