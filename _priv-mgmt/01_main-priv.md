@@ -71,7 +71,7 @@ It is important to understand the makeup of all types of privileged accounts so 
     </p> 
 </div>
 </div>
-
+<br>
 ## How do I find privileged accounts?
 <b> By Name: </b> Your agency may have a naming convention for its accounts to identify privileged users. For example, some names may have -admin or -domainadmin as part of their usernames (jdoe-admin). This shouldn’t be the only way to find administrators since access can change over time.
 
