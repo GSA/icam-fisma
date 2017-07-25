@@ -8,7 +8,7 @@ collection: unpriv-mgmt
 >![Calculator logo](../img/calc.png){:style="width:5%;"}
 
 1. Identify the characteristics that make your agency’s network accounts privileged. We’ll exclude those accounts from this metric.
-> • See the [FISMA Definitions](../tools-tips/definitions) and [Additional Information](../priv-mgmt/main-priv#How-do-I-find-privileged-accounts?) pages for examples of these characteristics. They are typically Groups in Active Directory.
+> • See the [FISMA Definitions](../tools-tips/definitions) and [Additional Information](../priv-mgmt/main-priv#how-do-i-find-privileged-accounts?) pages for examples of these characteristics. They are typically Groups in Active Directory.
 2. Search for and exclude accounts with the values identified in Step 1.
 > • See slides 5 and 6 for example searches.
 3. Count the remaining accounts that are assigned to/ used by individual people and record number for Metric 2.6.
