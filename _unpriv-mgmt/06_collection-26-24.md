@@ -13,7 +13,7 @@ collection: unpriv-mgmt
 > • See slides 5 and 6 for example searches.
 3. Count the remaining accounts that are assigned to/ used by individual people and record number for Metric 2.6.
 4. Now, count the number of accounts that are shared by 2 or more people and record number for Metric 2.6.1.
-> • See the [Additional Information](../priv-mgmt/main-priv#How-do-I-find-privileged-accounts?) page for examples of shared accounts.
+> • See the [Additional Information](../priv-mgmt/main-priv#How-do-I-find-privileged-accounts) page for examples of shared accounts.
 5. Of the accounts identified in Step 4, count the number of unique people with access to these accounts and record number for Metric 2.6.2. You might need to contact the point of contact for the account to research this information.
 6. Of the accounts identified in Step 3, identify the number of users of the accounts. Take care to eliminate duplicates from the count if two accounts are researched and identified to be assigned to the same person. Record this number for Metric 2.4.![Recycle logo](../img/recycle.png){:style="width:5%;"}
 
