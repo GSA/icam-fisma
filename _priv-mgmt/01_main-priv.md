@@ -60,6 +60,7 @@ It is important to understand the makeup of all types of privileged accounts so 
 </div>
 
 ### [Users with Privileged Local System Accounts and Users Required to Use PIV/LOA 4](collection-211-212)
+
 |2.11| Number of users with privileged local system accounts.
 |2.12| Number of users with privileged local system accounts (from 2.11) technologically required to log onto the system with a two-factor PIV card or other NIST LOA 4 credential.
 
