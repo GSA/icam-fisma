@@ -1,7 +1,7 @@
 --- 
 layout: default 
 title: How to Navigate 
-permalink: /navigation
+permalink: navigation
 ---
 *The purpose of this document is to provide agencies assistance and guidance with understanding, interpreting, and collecting information for the FY17 ICAM-related Metrics, to reduce the overall reporting burden.*
 ### Use this document as a How-to-Guide:
