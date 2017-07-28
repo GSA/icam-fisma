@@ -1,8 +1,8 @@
 ---
 layout: default
 title: FISMA Definitions
-permalink: priv-mgmt/definitions
-collection: priv-mgmt
+permalink: tools-tips/definitions
+collection: tools-tips
 ---
 #### Network Account
 Network user accounts are user accounts that are defined on the network, rather than on a local machine. It is assumed that these network accounts are the primary type used, and that local (machine) accounts are accessed primarily through network level accounts and credentials.

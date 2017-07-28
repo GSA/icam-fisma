@@ -92,7 +92,12 @@ navigation:
   coll: true
   collname: pacs
 - text: Data Protection & Remote Access
-  url: remote
+  url: data-protect/main-data
+  internal: true
+  coll: true
+  collname: data-protect
+- text: Next Steps
+  url: next
   internal: true
   coll: false
 #https://github.com/jekyll/jekyll/issues/2346
@@ -135,6 +140,11 @@ collections:
     label: "Physical Access Control Systems (PACS)"
     permalink: /pacs/:path/
     output: true    
+  data-protect:
+    label: "Data Protection & Remote Access"
+    permalink: /data-protect/:path/
+    output: true       
+    
   #https://github.com/jekyll/jekyll/issues/2346
 
 
