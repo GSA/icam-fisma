@@ -1,7 +1,7 @@
 --- 
 layout: default 
 title: Approach 
-permalink: /approach 
+permalink: approach 
 ---
 
 ![Approach Graphic](img/Approach.png)
