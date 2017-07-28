@@ -1,4 +1,4 @@
---- 
+---
 layout: default 
 title: How to Navigate 
 permalink: navigation
