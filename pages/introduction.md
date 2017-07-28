@@ -1,7 +1,7 @@
 --- 
 layout: default 
 title: Introduction 
-permalink: /index
+permalink: /
 ---
 
 There are 23 ICAM-related metrics in the FY17 FISMA Metrics, including several new metrics that have not been collected previously. For example:
