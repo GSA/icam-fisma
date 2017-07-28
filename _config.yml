@@ -1,45 +1,53 @@
 # Site settings
 
 title: ICAM FISMA Metrics Guide
-name: Federal Public Key Infrastructure Guides
-# title: FICAM FPKI Guides
-# name: Federal Public Key Infrastructure [FPKI] Guides
+name: Identity Credential & Access Management FISMA Metrics Guide
 email: icam@gsa.gov
 author:
     name: FICAM
     url: https://github.com/GSA/
 description: A guide on how to collect FISMA metrics, and meet the requirements.
-
+repo_url: https://github.com/GSA/icam-fisma
 baseurl: '/icam-fisma'
 branch: gh-pages
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
 github_username:  GSAllewell
 highlighter: rouge
+editbranch: staging
 
-# Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: /fpki-guides/img/logo.png
-logoalt: Federal Identity Credential and Access Management
-
-# Custom URLs
-ficam_playbooks_url: /ficam-guides/
-
-ficam_architecture_url: https://gsa.github.io/ficam-arch/
-ficam_architecture_gh_url: https://github.com/GSA/ficam-arch
-
-# Repo list
-# List repos that you would like to appear on the homepage here
-repos:
-- name: fpki-guides
-  description: FICAM Playbook - FPKI Guidance
-  url: https://github.com/gsa/fpki-guides
+ Links
+# List links that you would like to appear on the top navigation bar here
+navbar:
+- title: IDmanagement.gov
+  description: Idmanagement.gov
+  url: https://www.idmanagement.gov
+- title: Federal ICAM Architecture
+  description: Federal ICAM Architecture
+  url: https://arch.idmanagement.gov
+- title: PIV Guides
+  description: PIV Guides
+  url: https://piv.idmanagement.gov
+- title: FPKI Guides
+  description: FPKI Guides
+  url: https://fpki.idmanagement.gov
 
 # Build settings
 markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+#kramdown:
+#  input: GFM
+# syntax_highlighter: rouge
+
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
 
 exclude:
 - bin
@@ -55,7 +63,7 @@ exclude:
 
 navigation:
 - text: Introduction
-  url: index.html
+  url: ''
   internal: true
   coll: false
 - text: Approach
