@@ -10,7 +10,6 @@ description: A guide on how to collect FISMA metrics, and meet the requirements.
 repo_url: https://github.com/GSA/icam-fisma
 baseurl: '/icam-fisma'
 branch: gh-pages
-github_username:  GSAllewell
 highlighter: rouge
 editbranch: staging
 
@@ -32,22 +31,6 @@ navbar:
 
 # Build settings
 markdown: kramdown
-
-#kramdown:
-#  input: GFM
-# syntax_highlighter: rouge
-
-exclude:
-- bin
-- config.rb
-- Gemfile
-- Gemfile.lock
-- gems
-- Procfile
-- Rakefile
-- README.md
-- script
-- vendor
 
 exclude:
 - bin
