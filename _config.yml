@@ -81,11 +81,11 @@ navigation:
   internal: true
   coll: true
   collname: unpriv-mgmt
-- text: Access & Credential Revocation
-  url: cred-revoke/main-revoke
+- text: Access & Credential Review
+  url: ac-rev/main-ac
   internal: true
   coll: true
-  collname: cred-revoke
+  collname: ac-rev
 - text: Physical Acccess Control Systems (PACS)
   url: pacs/main-pacs
   internal: true
@@ -100,6 +100,7 @@ navigation:
   url: next
   internal: true
   coll: false
+
 #https://github.com/jekyll/jekyll/issues/2346
 #- text: Developer Guides
 #  url: devconfig/index/
@@ -111,10 +112,7 @@ navigation:
 #  internal: true
 #  coll: true
 #  collname: userconfig
-- text: Contribute
-  url: contribute
-  internal: true
-  coll: false
+
 collections:
   tools-tips:
     label: "Tools and Tips"
@@ -132,19 +130,19 @@ collections:
     label: "Unprivileged Accounts & Users"
     permalink: /unpriv-mgmt/:path/
     output: true
-  cred-revoke:
-    label: "Access & Credential Revocation"
-    permalink: /cred-revoke/:path/
+  ac-rev:
+    label: "Access & Credential Review"
+    permalink: /ac-rev/:path/
     output: true
   pacs:
     label: "Physical Access Control Systems (PACS)"
     permalink: /pacs/:path/
-    output: true    
+    output: true
   data-protect:
     label: "Data Protection & Remote Access"
     permalink: /data-protect/:path/
-    output: true       
-    
+    output: true
+
   #https://github.com/jekyll/jekyll/issues/2346
 
 
