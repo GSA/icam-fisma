@@ -6,18 +6,25 @@ permalink: navigation
 *The purpose of this document is to provide agencies assistance and guidance with understanding, interpreting, and collecting information for the FY18 ICAM-related Metrics, to reduce the overall reporting burden.*
 ### Use this document as a How-to-Guide:
 
-![Recycle logo](img/recycle.png){:style="width:4%;"} The recycle icon next to steps throughout the slides highlights when agencies should save the numbers they collect because they will need that information for other metrics.
+![Recycle logo](img/recycle.png){:style="width:40px;float:left;padding-right:5px;"}
+The recycle icon next to steps throughout the slides highlights when agencies should save the numbers they collect because they will need that information for other metrics.
+<br /><br />
 
-![Ribbon logo](img/ribbon.png){:style="width:4%;"} The “why” on the slide is included for informative purposes only and provides insight into why these metrics are important and provide value at the program, agency, and government-wide level.
+![Ribbon logo](img/ribbon.png){:style="width:40px;float:left;padding-right:5px;"}
+The “why” on the slide is included for informative purposes only and provides insight into why these metrics are important and provide value at the program, agency, and government-wide level.
+<br /><br />
 
-![Pencil logo](img/pencil.png){:style="width:5%;"}
+![Pencil logo](img/pencil.png){:style="width:40px;float:left;padding-right:5px;"}
 Examples are provided on several of the metrics to provide the agency with additional context for interpreting the metric.
+<br /><br />
 
-![Aha logo](img/aha.png){:style="width:5%;"}
+![Aha logo](img/aha.png){:style="width:40px;float:left;padding-right:5px;"}
 Tips are included, when applicable, to give agencies ideas for collection methods.
+<br /><br />
 
-![Focus logo](img/focus.png){:style="width:4%;"}
+![Focus logo](img/focus.png){:style="width:40px;float:left;padding-right:5px;"}
 Assumptions, definitions and references are included (when applicable) to provide the agency with additional context and information.
+<br />
 
 <div class="usa-alert usa-alert-info">
   <div class="usa-alert-body">
