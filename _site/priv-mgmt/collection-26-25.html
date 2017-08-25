@@ -16,8 +16,8 @@
 <!-- Title and meta description
 ================================================== -->
 
-  <title>Collecting Metrics 2.6, 2.6.1, & 2.5 | ICAM FISMA Metrics Guide</title>
-  <meta property="og:title" content="Collecting Metrics 2.6, 2.6.1, &amp; 2.5 | Federal Public Key Infrastructure Guides" />
+  <title>Collecting Metrics 2.6, 2.6.1, 2.5 | ICAM FISMA Metrics Guide</title>
+  <meta property="og:title" content="Collecting Metrics 2.6, 2.6.1, 2.5 | Federal Public Key Infrastructure Guides" />
 
 
 
@@ -144,6 +144,10 @@
           <a href="/icam-fisma/tools-tips/searchAD-PIV" title="Searching Active Directory - PIV">Searching Active Directory - PIV</a>
           </li>
           
+          <li class="group ">
+          <a href="/icam-fisma/tools-tips/definitions" title="FISMA Definitions">FISMA Definitions</a>
+          </li>
+          
           </ul>
           
           </li>
@@ -165,19 +169,15 @@
           </li>
           
           <li class="group usa-current">
-          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Current Page ">Collecting Metrics 2.6, 2.6.1, & 2.5</a>
+          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Current Page ">Collecting Metrics 2.6, 2.6.1, 2.5</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1, & 2.5.2">Collecting Metrics 2.5.1, & 2.5.2</a>
+          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1 & 2.5.2">Collecting Metrics 2.5.1 & 2.5.2</a>
           </li>
           
           <li class="group ">
           <a href="/icam-fisma/priv-mgmt/collection-27-28" title="Collecting Metrics 2.7 & 2.8">Collecting Metrics 2.7 & 2.8</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/definitions" title="FISMA Definitions">FISMA Definitions</a>
           </li>
           
           <li class="group ">
@@ -205,15 +205,11 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-26-262" title="Collecting Metrics 2.6, 2.6.1, & 2.6.2">Collecting Metrics 2.6, 2.6.1, & 2.6.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-26-24" title="Collecting Metrics 2.6, 2.6.1, 2.4">Collecting Metrics 2.6, 2.6.1, 2.4</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-24-25" title="Collecting Metrics 2.4 & 2.5">Collecting Metrics 2.4 & 2.5</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 & 2.4.2">Collecting Metrics 2.4.1 & 2.4.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 and 2.4.2">Collecting Metrics 2.4.1 and 2.4.2</a>
           </li>
           
           </ul>
@@ -289,7 +285,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/data-protect/collection-211-2111" title="Collecting Metric 2.11 & 2.11.1">Collecting Metric 2.11 & 2.11.1</a>
+          <a href="/icam-fisma/data-protect/collection-211" title="Collecting Metric 2.11">Collecting Metric 2.11</a>
           </li>
           
           </ul>
@@ -319,37 +315,40 @@
 						<a href="/tree//_priv-mgmt/02_collection-26-25.md" style="float:right;" class="btn btn-primary" target="_blank">Edit this page</a>
 					</div>
 					<h1 id="collecting-metrics-2-6-2-6-1-2-5">
-						Collecting Metrics 2.6, 2.6.1, & 2.5
+						Collecting Metrics 2.6, 2.6.1, 2.5
 					</h1>
 					<div class="usa-serif">
-						<h3 id="privileged-network-accounts-and-users">Privileged Network Accounts and Users</h3>
+						<hr />
+<h3 id="privileged-network-accounts-and-users">Privileged Network Accounts and Users</h3>
+
+<p><img src="../img/calc.png" alt="calc logo" style="width:40px;float:left;" /><br /><br /></p>
+<h4 id="where-do-i-start-">Where Do I Start? <br /></h4>
+<p>
+1. Search the user repository (Active Directory) for accounts used for network logon. </p>
 <blockquote>
-  <p><img src="../img/calc.png" alt="Calculator logo" style="width:5%;" /></p>
+  <p>• See <a href="../tools-tips/searchAD">Tools &amp; Tips for Active Directory</a> or <a href="../tools-tips/searchAD-PIV">Tools &amp; Tips for Active Directory-PIV</a> for examples of techniques to search Active Directory.</p>
 </blockquote>
+<p> 2.	Count the accounts that are assigned to/used by individual people and record number for Metric 2.6.   </p>
+<p> 3. Now, count the number of accounts that are shared by 2 or more people and record number for Metric 2.6.1. </p>
+<blockquote>
+  <p>•  See <a href="../priv-mgmt/additional-info">Additional Information</a> for examples of shared accounts.</p>
+</blockquote>
+<p> 4. Of the accounts identified in Step 2, identify the number of <i>users</i> of the accounts. Take care to eliminate duplicates from the count if two accounts are researched and identified to be assigned to the same person. Record this number for Metric 2.5.
+<img src="../img/recycle.png" alt="Chart logo" style="width:3%" align="middle" />
+</p>
+<p><img src="../img/ahabrn.png" alt="light bulb logo" style="width:45px;float:left;" /></p>
+<div class="usa-alert usa-alert;">
+<div class="usa-alert-body">
+<p class="usa-alert-text"><h4>Beware!</h4>
+John.smith.1 and john.smith.2 might both belong to the same person!</p>
+</div>
+</div>
 
-<p><strong><em>Where Do I Start?</em></strong></p>
-
-<ol>
-  <li>Search the user repository (Active Directory) for accounts used for network logon.
-    <blockquote>
-      <p>•  See <a href="../tools-tips/searchAD">Tools &amp; Tips for Active Directory</a> or <a href="../tools-tips/searchAD-PIV">Tools &amp; Tips for Active Directory-PIV</a> for examples of techniques to search Active Directory.</p>
-    </blockquote>
-  </li>
-  <li>Count the accounts that are assigned to/used by individual people and record number for Metric 2.6.</li>
-  <li>Now, count the number of accounts that are shared by 2 or more people and record number for Metric 2.6.1.
-    <blockquote>
-      <p>•  See <a href="../priv-mgmt/additional-info">Additional Information</a> for examples of shared accounts.</p>
-    </blockquote>
-  </li>
-  <li>Of the accounts identified in Step 2, identify the number of users of the accounts. Take care to eliminate duplicates from the count if two accounts are researched and identified to be assigned to the same person. Record this number for Metric 2.5. <br /></li>
-</ol>
-
-<p><img src="../img/recycle.png" alt="Recycle logo" style="width:5%;" /></p>
-
-<div class="usa-alert usa-alert-info">
+<p><img src="../img/recycle.png" alt="recycle logo" style="width:40px;float:left;" /></p>
+<div class="usa-alert usa-alert-">
   <div class="usa-alert-body">
     <p class="usa-alert-text"><h4>Save the result from Metric 2.5 (Step 4)!</h4>
-    You'll use the user information found here again for the next two metrics.</p>
+    You'll use the user information found here again for metrics 2.5.1 and 2.5.2.</p>
 </div>
 </div>
 

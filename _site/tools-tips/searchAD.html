@@ -144,6 +144,10 @@
           <a href="/icam-fisma/tools-tips/searchAD-PIV" title="Searching Active Directory - PIV">Searching Active Directory - PIV</a>
           </li>
           
+          <li class="group ">
+          <a href="/icam-fisma/tools-tips/definitions" title="FISMA Definitions">FISMA Definitions</a>
+          </li>
+          
           </ul>
           
           </li>
@@ -165,19 +169,15 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, & 2.5">Collecting Metrics 2.6, 2.6.1, & 2.5</a>
+          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, 2.5">Collecting Metrics 2.6, 2.6.1, 2.5</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1, & 2.5.2">Collecting Metrics 2.5.1, & 2.5.2</a>
+          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1 & 2.5.2">Collecting Metrics 2.5.1 & 2.5.2</a>
           </li>
           
           <li class="group ">
           <a href="/icam-fisma/priv-mgmt/collection-27-28" title="Collecting Metrics 2.7 & 2.8">Collecting Metrics 2.7 & 2.8</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/definitions" title="FISMA Definitions">FISMA Definitions</a>
           </li>
           
           <li class="group ">
@@ -205,15 +205,11 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-26-262" title="Collecting Metrics 2.6, 2.6.1, & 2.6.2">Collecting Metrics 2.6, 2.6.1, & 2.6.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-26-24" title="Collecting Metrics 2.6, 2.6.1, 2.4">Collecting Metrics 2.6, 2.6.1, 2.4</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-24-25" title="Collecting Metrics 2.4 & 2.5">Collecting Metrics 2.4 & 2.5</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 & 2.4.2">Collecting Metrics 2.4.1 & 2.4.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 and 2.4.2">Collecting Metrics 2.4.1 and 2.4.2</a>
           </li>
           
           </ul>
@@ -289,7 +285,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/data-protect/collection-211-2111" title="Collecting Metric 2.11 & 2.11.1">Collecting Metric 2.11 & 2.11.1</a>
+          <a href="/icam-fisma/data-protect/collection-211" title="Collecting Metric 2.11">Collecting Metric 2.11</a>
           </li>
           
           </ul>
@@ -322,18 +318,24 @@
 						Searching Active Directory
 					</h1>
 					<div class="usa-serif">
-						<h2><img src="../img/book.png" alt="Book logo" style="width:7%;" /></h2>
+						<hr />
+<p><img src="../img/book.png" alt="book logo" style="width:100px;float:right;padding-left:20px;" /></p>
 
-<h4 id="using-the-gui">Using The GUI</h4>
-<p>You can use the find command in <em>Active Directory Users and Groups</em> application to search for network users and groups. This interface allows you to inspect groups and group membership individually.</p>
+<p><strong>Using The GUI</strong> <br />
+You can use the find command in <em>Active Directory Users and Groups</em> application to search for network users and groups. This interface allows you to inspect groups and group membership individually.</p>
 
-<h4 id="powershell">PowerShell</h4>
-<p>PowerShell commands can be used to find members of administrative groups and members of child groups for the domain. Here’s an example command to list the members of a group for the example.gov domain:</p>
+<p><strong>PowerShell</strong> <br />
+PowerShell commands can be used to find members of administrative groups and members of child groups for the domain. Here’s an example command to list the members of a group for the example.gov domain: <br /></p>
 <blockquote>
-  <p>dsget group “CN=Domain Admins,CN=Users,DC=example,DC=gov” -members <br />
-Sample results: <br />
-“CN=Test Admin,CN=Users,DC=example,DC=gov”
-“CN=Administrator,CN=Users,DC=example,DC=gov”</p>
+  <p>dsget group “CN=Domain Admins,CN=Users,DC=example,DC=gov” -members <br /></p>
+</blockquote>
+
+<blockquote>
+  <p>Sample results: <br /></p>
+  <blockquote>
+    <p>“CN=Test Admin,CN=Users,DC=example,DC=gov” <br />
+“CN=Administrator,CN=Users,DC=example,DC=gov” <br /></p>
+  </blockquote>
 </blockquote>
 
 <p>Other scripts can be created to search Active Directory for membership to many groups at once. Active Directory understands LDAP filters. Here is an example script to find accounts who are part of one or both of the identified groups. It also takes into consideration only users with -admin at the end of their username.</p>
@@ -346,14 +348,7 @@ Get-ADUser -LDAPFilter “(&amp;(SamAccountName=*-admin) (|(memberof=$DomainsAdm
 <p>To count the resulting objects instead of listing them, add this to the end of the Get-ADUser command:*-</p>
 
 <blockquote>
-  <table>
-    <tbody>
-      <tr>
-        <td>-ResultSetSize $null</td>
-        <td>Measure-Object</td>
-      </tr>
-    </tbody>
-  </table>
+  <p>-ResultSetSize $null | Measure-Object</p>
 </blockquote>
 
 <p>This command uses variables to improve the readability of the filter. If you want to use the filter above in the GUI, from the find dialog, choose “Custom Search” and “Advanced”. You can’t use variables in there like in PowerShell, so make sure you use the full DN of the group.</p>

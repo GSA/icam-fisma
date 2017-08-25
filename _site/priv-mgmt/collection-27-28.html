@@ -144,6 +144,10 @@
           <a href="/icam-fisma/tools-tips/searchAD-PIV" title="Searching Active Directory - PIV">Searching Active Directory - PIV</a>
           </li>
           
+          <li class="group ">
+          <a href="/icam-fisma/tools-tips/definitions" title="FISMA Definitions">FISMA Definitions</a>
+          </li>
+          
           </ul>
           
           </li>
@@ -165,19 +169,15 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, & 2.5">Collecting Metrics 2.6, 2.6.1, & 2.5</a>
+          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, 2.5">Collecting Metrics 2.6, 2.6.1, 2.5</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1, & 2.5.2">Collecting Metrics 2.5.1, & 2.5.2</a>
+          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1 & 2.5.2">Collecting Metrics 2.5.1 & 2.5.2</a>
           </li>
           
           <li class="group usa-current">
           <a href="/icam-fisma/priv-mgmt/collection-27-28" title="Current Page ">Collecting Metrics 2.7 & 2.8</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/definitions" title="FISMA Definitions">FISMA Definitions</a>
           </li>
           
           <li class="group ">
@@ -205,15 +205,11 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-26-262" title="Collecting Metrics 2.6, 2.6.1, & 2.6.2">Collecting Metrics 2.6, 2.6.1, & 2.6.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-26-24" title="Collecting Metrics 2.6, 2.6.1, 2.4">Collecting Metrics 2.6, 2.6.1, 2.4</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-24-25" title="Collecting Metrics 2.4 & 2.5">Collecting Metrics 2.4 & 2.5</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 & 2.4.2">Collecting Metrics 2.4.1 & 2.4.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 and 2.4.2">Collecting Metrics 2.4.1 and 2.4.2</a>
           </li>
           
           </ul>
@@ -289,7 +285,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/data-protect/collection-211-2111" title="Collecting Metric 2.11 & 2.11.1">Collecting Metric 2.11 & 2.11.1</a>
+          <a href="/icam-fisma/data-protect/collection-211" title="Collecting Metric 2.11">Collecting Metric 2.11</a>
           </li>
           
           </ul>
@@ -322,40 +318,43 @@
 						Collecting Metrics 2.7 & 2.8
 					</h1>
 					<div class="usa-serif">
-						<h3 id="users-with-privileged-local-system-accounts-and-users-required-to-use-piv-credential">Users with Privileged Local System Accounts and Users Required to Use PIV Credential</h3>
+						<hr />
+<h3 id="users-with-privileged-local-system-accounts-and-users-required-to-use-pivnist-approved-credentials">Users with Privileged Local System Accounts and Users Required to Use PIV/NIST Approved Credentials</h3>
+
+<p><img src="../img/calc.png" alt="calc logo" style="width:40px;float:left;" /><br /><br /></p>
+<h4 id="where-do-i-start-">Where Do I Start? <br /></h4>
+<p>
+1. Identify the user population with privileged local system accounts.</p>
 <blockquote>
-  <p><img src="../img/calc.png" alt="Calculator logo" style="width:5%;" /></p>
+  <p>•  These users will typically support the administration of systems that run and make up the infrastructure.</p>
 </blockquote>
 
-<p><strong><em>Where Do I Start?</em></strong></p>
-
-<ol>
-  <li>Identify the user population with privileged local system accounts.
-    <blockquote>
-      <p>•  These users will typically support the administration of systems that run and make up the infrastructure.<br />
-•  These users may have <em>groups</em> or some other access rights associated with the account that gives them privileged access to the local system.<br />
-•  The accounts may be built-in administrative accounts such as root on Unix-like systems.<br />
-•  Some local system accounts may have elevated privileges through built-in utilities such as SUDO. These accounts should be identified as well.</p>
-    </blockquote>
-  </li>
-  <li>Count the number of individual users (people) with these accounts. A user with 5 privileged accounts counts once. Record this number for Metric 2.7.</li>
-  <li>For each of the users’ accounts identified in Metric 2.7, determine if the local system that allows a user to authenticate to the account requires authentication with a PIV or other credential.</li>
-  <li>If yes, for all of the user’s privileged local accounts, count this user. If no for 1 or more of a user’s accounts, do not count the user. Record this number for Metric 2.8.</li>
-</ol>
+<blockquote>
+  <p>•  These users may have <em>groups</em> or some other <em>access rights</em> associated with the account that gives them privileged access to the local system.</p>
+</blockquote>
 
 <blockquote>
-  <p><img src="../img/ahabrn.png" alt="Light bulb logo" style="width:7%;" /></p>
+  <p>•  The accounts may be built-in administrative accounts such as root on Unix-like systems.</p>
 </blockquote>
-<div class="usa-alert usa-alert-info">
+
+<blockquote>
+  <p>•  Some local system accounts may have elevated privileges through built-in utilities such as SUDO. These accounts should be identified as well.</p>
+</blockquote>
+
+<p> 2. Count the number of individual users (people) with these accounts. A user with 5 privileged accounts counts once. Record this number for Metric 2.7.</p>
+<p> 3. For each of the users’ accounts identified in Metric 2.7, determine if the local system that allows a user to authenticate to the account requires authentication with a PIV or other NIST approved credential.</p>
+<p> 4. If yes, for all of the user’s privileged local accounts, count this user. If no for 1 or more of a user’s accounts, do not count the user. Record this number for Metric 2.8.</p>
+
+<p><img src="../img/ahabrn.png" alt="light bulb logo" style="width:45px;float:left;" /></p>
+<div class="usa-alert usa-alert;">
   <div class="usa-alert-body">
-    <p class="usa-alert-text"><h4>Don't Forget:</h4>
-    •  Network Administrators
-    <br />•  Database Administrators
-    <br />•  UNIX System Administrators
-    <br />•  Mainframe Administrators
-    <br />•  Web Server Administrators
-    <br />•  Email Server Administrators
-    </p>
+  <p class="usa-alert-text"><h4>Don't Forget:</h4>
+•  Network Administrators
+<br />•  Database Administrators
+<br />•  UNIX System Administrators
+<br />•  Mainframe Administrators
+<br />•  Web Server Administrators
+<br />•  Email Server Administrators</p>
 </div>
 </div>
 

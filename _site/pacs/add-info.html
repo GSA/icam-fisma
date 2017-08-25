@@ -144,6 +144,10 @@
           <a href="/icam-fisma/tools-tips/searchAD-PIV" title="Searching Active Directory - PIV">Searching Active Directory - PIV</a>
           </li>
           
+          <li class="group ">
+          <a href="/icam-fisma/tools-tips/definitions" title="FISMA Definitions">FISMA Definitions</a>
+          </li>
+          
           </ul>
           
           </li>
@@ -165,19 +169,15 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, & 2.5">Collecting Metrics 2.6, 2.6.1, & 2.5</a>
+          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, 2.5">Collecting Metrics 2.6, 2.6.1, 2.5</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1, & 2.5.2">Collecting Metrics 2.5.1, & 2.5.2</a>
+          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Collecting Metrics 2.5.1 & 2.5.2">Collecting Metrics 2.5.1 & 2.5.2</a>
           </li>
           
           <li class="group ">
           <a href="/icam-fisma/priv-mgmt/collection-27-28" title="Collecting Metrics 2.7 & 2.8">Collecting Metrics 2.7 & 2.8</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/definitions" title="FISMA Definitions">FISMA Definitions</a>
           </li>
           
           <li class="group usa-current">
@@ -205,15 +205,11 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-26-262" title="Collecting Metrics 2.6, 2.6.1, & 2.6.2">Collecting Metrics 2.6, 2.6.1, & 2.6.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-26-24" title="Collecting Metrics 2.6, 2.6.1, 2.4">Collecting Metrics 2.6, 2.6.1, 2.4</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-24-25" title="Collecting Metrics 2.4 & 2.5">Collecting Metrics 2.4 & 2.5</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 & 2.4.2">Collecting Metrics 2.4.1 & 2.4.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 and 2.4.2">Collecting Metrics 2.4.1 and 2.4.2</a>
           </li>
           
           </ul>
@@ -289,7 +285,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/data-protect/collection-211-2111" title="Collecting Metric 2.11 & 2.11.1">Collecting Metric 2.11 & 2.11.1</a>
+          <a href="/icam-fisma/data-protect/collection-211" title="Collecting Metric 2.11">Collecting Metric 2.11</a>
           </li>
           
           </ul>
@@ -322,30 +318,34 @@
 						Additional Information
 					</h1>
 					<div class="usa-serif">
-						<p><img src="../img/magnify.png" alt="magnify logo" style="width:10%;" /> <br />
-<strong><em>How do I look through my PACS software in an HID Validation Solution Environment?</em></strong></p>
+						<hr />
+<h3 id="how-do-i-look-through-my-pacs-software-in-an-hid-validation-solution-environment-">How do I look through my PACS software in an HID Validation Solution Environment? <img src="../img/magnify.png" alt="magnify logo" style="width:40px;float:left;" /></h3>
+<p>
+1. Create an excel based inventory of all readers for a “given area”.</p>
+<blockquote>
+  <p>• Take note of the make, model, hardware revision, and firmware revision.</p>
 
-<ol>
-  <li>Create an excel based inventory of all readers for a “given area”.
-    <blockquote>
-      <p>• Take note of the make, model, hardware revision, and firmware revision.<br />
-• Take note of whether the above matches what is listed on the APL.\</p>
-    </blockquote>
-  </li>
-  <li>Determine/Confirm which validation system is configured to support the reader.<br />
-    <blockquote>
-      <p>• Log into pivCLASS PACS Services Server<br />
-• Open pivCLASS PACS Service Administration\ Application, log in if necessary<br />
-• Go to Tools &gt; Configure PACS Service<br />
-• Click the Reader Services Tab<br />
-• In the left panel, expand the “Panels” tree<br />
-• For each PAM panel configured: (1) Match the readers therein to the readers inventoried above, and (2) note which Assurance profile the reader is configured.<br />
-• Write this information on the Inventory Report</p>
-    </blockquote>
-  </li>
-</ol>
+  <p>• Take note of whether the above matches what is listed on the APL.</p>
+</blockquote>
+<p>
+2. Determine/Confirm which validation system is configured to support the reader.</p>
+<blockquote>
+  <p>• Log into pivCLASS PACS Services Server</p>
 
-<p><em>If you use a different vendor’s validation system, and are not sure how to collect these metrics, please email <a href="mailto:icam@gsa.gov">icam@gsa.gov</a> for assistance.</em></p>
+  <p>• Open pivCLASS PACS Service Administration Application, log in if necessary</p>
+
+  <p>• Go to Tools &gt; Configure PACS Service</p>
+
+  <p>• Click the Reader Services Tab</p>
+
+  <p>• In the left panel, expand the “Panels” tree</p>
+
+  <p>• For each PAM panel configured: (1) Match the readers therein to the readers inventoried above, and (2) note which Assurance profile the reader is configured.</p>
+
+  <p>• Write this information on the Inventory Report.</p>
+</blockquote>
+
+<p><i>If you use a different vendor’s validation system, and are not sure how to collect these metrics, please email</i> <a href="mailto:icam@gsa.gov">icam@gsa.gov</a> <i>for assistance. </i></p>
 
 					</div><!--/usa-serif -->
 				</div><!--/usa-width-one-whole -->

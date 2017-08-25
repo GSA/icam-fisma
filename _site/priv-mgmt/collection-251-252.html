@@ -16,8 +16,8 @@
 <!-- Title and meta description
 ================================================== -->
 
-  <title>Collecting Metrics 2.5.1, & 2.5.2 | ICAM FISMA Metrics Guide</title>
-  <meta property="og:title" content="Collecting Metrics 2.5.1, &amp; 2.5.2 | Federal Public Key Infrastructure Guides" />
+  <title>Collecting Metrics 2.5.1 & 2.5.2 | ICAM FISMA Metrics Guide</title>
+  <meta property="og:title" content="Collecting Metrics 2.5.1 &amp; 2.5.2 | Federal Public Key Infrastructure Guides" />
 
 
 
@@ -144,6 +144,10 @@
           <a href="/icam-fisma/tools-tips/searchAD-PIV" title="Searching Active Directory - PIV">Searching Active Directory - PIV</a>
           </li>
           
+          <li class="group ">
+          <a href="/icam-fisma/tools-tips/definitions" title="FISMA Definitions">FISMA Definitions</a>
+          </li>
+          
           </ul>
           
           </li>
@@ -165,19 +169,15 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, & 2.5">Collecting Metrics 2.6, 2.6.1, & 2.5</a>
+          <a href="/icam-fisma/priv-mgmt/collection-26-25" title="Collecting Metrics 2.6, 2.6.1, 2.5">Collecting Metrics 2.6, 2.6.1, 2.5</a>
           </li>
           
           <li class="group usa-current">
-          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Current Page ">Collecting Metrics 2.5.1, & 2.5.2</a>
+          <a href="/icam-fisma/priv-mgmt/collection-251-252" title="Current Page ">Collecting Metrics 2.5.1 & 2.5.2</a>
           </li>
           
           <li class="group ">
           <a href="/icam-fisma/priv-mgmt/collection-27-28" title="Collecting Metrics 2.7 & 2.8">Collecting Metrics 2.7 & 2.8</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/definitions" title="FISMA Definitions">FISMA Definitions</a>
           </li>
           
           <li class="group ">
@@ -205,15 +205,11 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-26-262" title="Collecting Metrics 2.6, 2.6.1, & 2.6.2">Collecting Metrics 2.6, 2.6.1, & 2.6.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-26-24" title="Collecting Metrics 2.6, 2.6.1, 2.4">Collecting Metrics 2.6, 2.6.1, 2.4</a>
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-24-25" title="Collecting Metrics 2.4 & 2.5">Collecting Metrics 2.4 & 2.5</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 & 2.4.2">Collecting Metrics 2.4.1 & 2.4.2</a>
+          <a href="/icam-fisma/unpriv-mgmt/collection-241-242" title="Collecting Metrics 2.4.1 and 2.4.2">Collecting Metrics 2.4.1 and 2.4.2</a>
           </li>
           
           </ul>
@@ -289,7 +285,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/data-protect/collection-211-2111" title="Collecting Metric 2.11 & 2.11.1">Collecting Metric 2.11 & 2.11.1</a>
+          <a href="/icam-fisma/data-protect/collection-211" title="Collecting Metric 2.11">Collecting Metric 2.11</a>
           </li>
           
           </ul>
@@ -319,31 +315,36 @@
 						<a href="/tree//_priv-mgmt/03_collection-251-252.md" style="float:right;" class="btn btn-primary" target="_blank">Edit this page</a>
 					</div>
 					<h1 id="collecting-metrics-2-5-1-2-5-2">
-						Collecting Metrics 2.5.1, & 2.5.2
+						Collecting Metrics 2.5.1 & 2.5.2
 					</h1>
 					<div class="usa-serif">
-						<h3 id="privileged-user-authentication">Privileged User Authentication</h3>
+						<hr />
+<h3 id="privileged-user-authentication">Privileged User Authentication</h3>
+
+<p><img src="../img/calc.png" alt="calc logo" style="width:40px;float:left;" /><br /><br /></p>
+<h4 id="where-do-i-start-">Where Do I Start? <br /></h4>
+<p>
+1. Start with the users identified in <a href="collection-26-25">Step 4 - Metric 2.5.</a> </p>
+<p>
+2. Exclude users that can log onto the network with <i>anything other than</i> a PIV or NIST approved credential. (Examples: One time password tokens, SMS PIN &amp; Password, Username and Password).</p>
+
 <blockquote>
-  <p><img src="../img/calc.png" alt="Calculator logo" style="width:5%;" /></p>
+  <p>•  Some users have multiple accounts - a user must be <em>excluded</em> if even one of their accounts lets them log onto the network with something other than a PIV or NIST approved credential.</p>
 </blockquote>
 
-<p><strong><em>Where Do I Start?</em></strong></p>
+<blockquote>
+  <p>•  Users who have the <em>option</em> of PIV credential or Username/Password should also be excluded since PIV credential is not <strong><em>required.</em></strong></p>
+</blockquote>
 
-<ol>
-  <li>Start with the users identified in <a href="../priv-mgmt/collection-26-25">Step 4 -Metric 2.5</a>.</li>
-  <li>Exclude users that can log onto the network with <em>anything other than</em> a PIV credential. (Examples: One time password tokens, SMS PIN &amp; Password, Username and Password).
-    <blockquote>
-      <p>•  Some users have multiple accounts - a user must be <em>excluded</em> if even one of their accounts lets them log onto the network with something other than a PIV credential. <br />
-•  Users who have the <em>option</em> of PIV credential or Username/Password should also be excluded since PIV credential is not <strong><em>required.</em></strong></p>
-    </blockquote>
-  </li>
-  <li>For the remaining users, include users that are technologically required through user based enforcement (UBE). This requires the user to use PIV credentials on all devices to access the network and disables the password. The users that have this enforcement should be counted. See page 6 for information on querying these for these users.</li>
-  <li>For the remaining users who have a PIV credential but who aren’t UBE or MBE, exclude users who can log onto the network without a PIV credential.</li>
-  <li>Count the total number of unique users who have not been excluded in previous steps on this page and record number for Metric 2.5.1.</li>
-  <li>Start with the users identified in Step 1 and exclude the users identified in Step 5.</li>
-  <li>For each remaining account, does the account have the <strong><em>ability</em></strong> to log onto the network using a <em>username &amp; password?</em> If it does, the user of the account should be counted.</li>
-  <li>Count the total number of unique users found in Step 7 and record the number for Metric 2.5.2.</li>
-</ol>
+<p> 3. For the remaining users, include users that are technologically required through user based enforcement (UBE). This requires the user to use PIV credentials on all devices to access the network and disables the password. The users that have this enforcement should be counted.</p>
+<blockquote>
+  <p>•  See the <a href="../tools-tips/searchAD-PIV">Searching Active Directory - PIV</a> page for information on querying for these users.</p>
+</blockquote>
+<p> 4. For the remaining users who have a PIV credential but who aren’t UBE or MBE, exclude users who can log onto the network without a PIV credential.</p>
+<p> 5. Count the total number of unique users who have not been excluded in previous steps on this page and record number for Metric 2.5.1.</p>
+<p> 6. Start with the users identified in Step 1 and exclude the users identified in Step 5.</p>
+<p> 7. For each remaining account, does the account have the <b><i>ability</i></b> to log onto the network using a <i>username &amp; password?</i> If it does, the user of the account should be counted.</p>
+<p> 8. Count the total number of unique users found in Step 7 and record the number for Metric 2.5.2.</p>
 
 					</div><!--/usa-serif -->
 				</div><!--/usa-width-one-whole -->
