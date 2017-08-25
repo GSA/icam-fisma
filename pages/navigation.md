@@ -15,7 +15,7 @@ The “why” on the slide is included for informative purposes only and provide
 ![Pencil logo](img/pencil.png){:style="width:45px;float:left;padding-right:10px;"}
 Examples are provided on several of the metrics to provide the agency with additional context for interpreting the metric.
 <br><br>
-![Aha logo](img/aha.png){:style="width:45px;float:left;padding-right:10px;"}
+![Aha logo](img/aha.png){:style="width:50px;float:left;padding-right:10px;"}
 Tips are included, when applicable, to give agencies ideas for collection methods.
 <br><br>
 ![Focus logo](img/focus.png){:style="width:45px;float:left;padding-right:10px;"}
