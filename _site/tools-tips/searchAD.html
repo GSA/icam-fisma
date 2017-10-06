@@ -125,7 +125,7 @@
           </li>
        
           <li class="group ">
-            <a href="/icam-fisma/tools-tips/searchAD" title="Tools & Tips">Tools & Tips</a>
+            <a href="/icam-fisma/tools-tips/fisma-def" title="Tools & Tips">Tools & Tips</a>
           
           
           <button class="usa-sidenav-expand_subnav"
@@ -136,16 +136,16 @@
           <ul class="nav-children usa-current-section" id="nav-collapsible-4" aria-hidden="false">
       
           
+          <li class="group ">
+          <a href="/icam-fisma/tools-tips/fisma-def" title="FISMA Definitions">FISMA Definitions</a>
+          </li>
+          
           <li class="group usa-current">
           <a href="/icam-fisma/tools-tips/searchAD" title="Current Page ">Searching Active Directory</a>
           </li>
           
           <li class="group ">
           <a href="/icam-fisma/tools-tips/searchAD-PIV" title="Searching Active Directory - PIV">Searching Active Directory - PIV</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/tools-tips/definitions" title="FISMA Definitions">FISMA Definitions</a>
           </li>
           
           </ul>
@@ -181,7 +181,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/additional-info" title="Additional Information">Additional Information</a>
+          <a href="/icam-fisma/priv-mgmt/section-resources" title="Section Resources">Section Resources</a>
           </li>
           
           </ul>
@@ -241,7 +241,7 @@
           </li>
        
           <li class="group ">
-            <a href="/icam-fisma/pacs/main-pacs" title="Physical Acccess Control Systems (PACS)">Physical Acccess Control Systems (PACS)</a>
+            <a href="/icam-fisma/pacs/main-pacs" title="Physical Access Control Systems (PACS)">Physical Access Control Systems (PACS)</a>
           
           
           <button class="usa-sidenav-expand_subnav"
@@ -261,7 +261,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/pacs/add-info" title="Additional Information">Additional Information</a>
+          <a href="/icam-fisma/pacs/section-resources" title="Section Resources">Section Resources</a>
           </li>
           
           </ul>
@@ -294,6 +294,12 @@
        
           <li class="group ">
             <a href="/icam-fisma/next" title="Next Steps">Next Steps</a>
+          
+          
+          </li>
+       
+          <li class="group ">
+            <a href="/icam-fisma/openissue" title="Open Issue">Open Issue</a>
           
           
           </li>
@@ -331,11 +337,9 @@ PowerShell commands can be used to find members of administrative groups and mem
 </blockquote>
 
 <blockquote>
-  <p>Sample results: <br /></p>
-  <blockquote>
-    <p>“CN=Test Admin,CN=Users,DC=example,DC=gov” <br />
+  <p>Sample results: <br />
+“CN=Test Admin,CN=Users,DC=example,DC=gov” <br />
 “CN=Administrator,CN=Users,DC=example,DC=gov” <br /></p>
-  </blockquote>
 </blockquote>
 
 <p>Other scripts can be created to search Active Directory for membership to many groups at once. Active Directory understands LDAP filters. Here is an example script to find accounts who are part of one or both of the identified groups. It also takes into consideration only users with -admin at the end of their username.</p>

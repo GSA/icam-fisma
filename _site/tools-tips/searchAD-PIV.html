@@ -125,7 +125,7 @@
           </li>
        
           <li class="group ">
-            <a href="/icam-fisma/tools-tips/searchAD" title="Tools & Tips">Tools & Tips</a>
+            <a href="/icam-fisma/tools-tips/fisma-def" title="Tools & Tips">Tools & Tips</a>
           
           
           <button class="usa-sidenav-expand_subnav"
@@ -137,15 +137,15 @@
       
           
           <li class="group ">
+          <a href="/icam-fisma/tools-tips/fisma-def" title="FISMA Definitions">FISMA Definitions</a>
+          </li>
+          
+          <li class="group ">
           <a href="/icam-fisma/tools-tips/searchAD" title="Searching Active Directory">Searching Active Directory</a>
           </li>
           
           <li class="group usa-current">
           <a href="/icam-fisma/tools-tips/searchAD-PIV" title="Current Page ">Searching Active Directory - PIV</a>
-          </li>
-          
-          <li class="group ">
-          <a href="/icam-fisma/tools-tips/definitions" title="FISMA Definitions">FISMA Definitions</a>
           </li>
           
           </ul>
@@ -181,7 +181,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/priv-mgmt/additional-info" title="Additional Information">Additional Information</a>
+          <a href="/icam-fisma/priv-mgmt/section-resources" title="Section Resources">Section Resources</a>
           </li>
           
           </ul>
@@ -241,7 +241,7 @@
           </li>
        
           <li class="group ">
-            <a href="/icam-fisma/pacs/main-pacs" title="Physical Acccess Control Systems (PACS)">Physical Acccess Control Systems (PACS)</a>
+            <a href="/icam-fisma/pacs/main-pacs" title="Physical Access Control Systems (PACS)">Physical Access Control Systems (PACS)</a>
           
           
           <button class="usa-sidenav-expand_subnav"
@@ -261,7 +261,7 @@
           </li>
           
           <li class="group ">
-          <a href="/icam-fisma/pacs/add-info" title="Additional Information">Additional Information</a>
+          <a href="/icam-fisma/pacs/section-resources" title="Section Resources">Section Resources</a>
           </li>
           
           </ul>
@@ -298,6 +298,12 @@
           
           </li>
        
+          <li class="group ">
+            <a href="/icam-fisma/openissue" title="Open Issue">Open Issue</a>
+          
+          
+          </li>
+       
     </ul>
   </nav>
   <a href="/issues" class="btn btn-primary" target="_blank">Submit Issues Here</a>
@@ -328,7 +334,7 @@ The user is required to use their PIV credential to authenticate to each device 
 The user is required to use their PIV credentials to authenticate to all networks and devices. Your users’ Active Directory password hash values have been replaced with hash values of long (120 character) randomized strings.</p>
 
 <p><strong>How do I know if accounts are required to login with their PIV (UBE)?</strong> <br />
-You can use LDAP filters to search Active Directory for accounts that do or don’t enforce PIV to log onto networks. Here’s an example filter that you can use in a PowerShell script or Active Directory advanced search to find users based on <em>User Account Control – Smart Card Login Enforced on The User.</em></p>
+You can use LDAP filters to search Active Directory for accounts that do or do not enforce PIV to log onto networks. Here’s an example filter that you can use in a PowerShell script or Active Directory advanced search to find users based on <em>User Account Control – Smart Card Login Enforced on The User.</em></p>
 
 <p>To find users where the Smart Card Login is enforced on person objects: <br />
 (&amp;(objectCategory=person)(userAccountControl:1.2.840.113556.1.4.803:=262144))</p>

@@ -14,8 +14,14 @@ collection: data-protect
 | 2.11 | Number of high and moderate impact systems from metric 1.1 that require all users (100% privileged and 100% unprivileged) to authenticate using a two-factor PIV credential or other NIST approved credential. (Not required for low impact information systems.)
 
 ![ribbon logo](../img/ribbon.png){:style="width:40px;float:left;"}
-<div class="usa-alert usa-alert">
-  <div class="usa-alert-body">
+<style>
+div .usa-alert {background-color: #e1f3f8;}
+div .usa-alert-text {
+padding-left: 5rem;
+horizontal-align: right; }
+  </style>
+  <div class="usa-alert">
+  <div class="usa-alert-text">
     <p class="usa-alert-text"><H4>Why is Metric 2.11 important?</H4>
     Issuing the appropriate credentials to user populations is meaningless unless agencies require the use of these credentials. Improper authentication of credentials may put an agency at risk.</p>
 </div>

@@ -14,7 +14,7 @@ The user is required to use their PIV credential to authenticate to each device 
 The user is required to use their PIV credentials to authenticate to all networks and devices. Your users' Active Directory password hash values have been replaced with hash values of long (120 character) randomized strings.
 
 **How do I know if accounts are required to login with their PIV (UBE)?** <br>
-You can use LDAP filters to search Active Directory for accounts that do or don’t enforce PIV to log onto networks. Here’s an example filter that you can use in a PowerShell script or Active Directory advanced search to find users based on *User Account Control – Smart Card Login Enforced on The User.*
+You can use LDAP filters to search Active Directory for accounts that do or do not enforce PIV to log onto networks. Here’s an example filter that you can use in a PowerShell script or Active Directory advanced search to find users based on *User Account Control – Smart Card Login Enforced on The User.*
 
 To find users where the Smart Card Login is enforced on person objects: <br>
 (&(objectCategory=person)(userAccountControl:1.2.840.113556.1.4.803:=262144))

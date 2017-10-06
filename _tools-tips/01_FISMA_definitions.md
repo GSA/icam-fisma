@@ -1,13 +1,12 @@
 ---
 layout: default
 title: FISMA Definitions
-permalink: tools-tips/definitions
+permalink: tools-tips/fisma-def
 collection: tools-tips
 ---
 ---
-![book logo](../img/book.png){:style="width:100px;float:right;padding-left:20px;"}
 
-
+![focus logo](../img/focus.png){:style="width:50px;float:right;"}
 **Network Account** <br>
 Network user accounts are user accounts that are defined on the network, rather than on a local machine. It is assumed that these network accounts are the primary type used, and that local (machine) accounts are accessed primarily through network level accounts and credentials.
 

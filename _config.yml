@@ -67,7 +67,7 @@ navigation:
   internal: true
   coll: false
 - text: Tools & Tips
-  url: tools-tips/searchAD
+  url: tools-tips/fisma-def
   internal: true
   coll: true
   collname: tools-tips
@@ -86,7 +86,7 @@ navigation:
   internal: true
   coll: true
   collname: ac-rev
-- text: Physical Acccess Control Systems (PACS)
+- text: Physical Access Control Systems (PACS)
   url: pacs/main-pacs
   internal: true
   coll: true

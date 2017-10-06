@@ -12,11 +12,11 @@ You can use the find command in *Active Directory Users and Groups* application 
 
 **PowerShell** <br>
 PowerShell commands can be used to find members of administrative groups and members of child groups for the domain. Here’s an example command to list the members of a group for the example.gov domain: <br>
->dsget group "CN=Domain Admins,CN=Users,DC=example,DC=gov" -members <br>
+> dsget group "CN=Domain Admins,CN=Users,DC=example,DC=gov" -members <br>
 
 >Sample results: <br>
->>"CN=Test Admin,CN=Users,DC=example,DC=gov" <br>
->>"CN=Administrator,CN=Users,DC=example,DC=gov" <br>
+> "CN=Test Admin,CN=Users,DC=example,DC=gov" <br>
+> "CN=Administrator,CN=Users,DC=example,DC=gov" <br>
 
 Other scripts can be created to search Active Directory for membership to many groups at once. Active Directory understands LDAP filters. Here is an example script to find accounts who are part of one or both of the identified groups. It also takes into consideration only users with -admin at the end of their username.
 >$DomainsAdminsDn = (Get-ADGroup 'Domain Admins').DistinguishedName
