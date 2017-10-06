@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Collecting Metrics 2.9, 2.9.1, & 2.9.2
+title: Collecting Metrics 2.9, 2.9.1, 2.9.2
 permalink: ac-rev/collection-29-292
 collection: ac-rev
 ---
