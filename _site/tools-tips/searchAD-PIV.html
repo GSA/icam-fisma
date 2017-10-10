@@ -331,10 +331,10 @@ The user is required to use their PIV credentials to authenticate to all network
 You can use LDAP filters to search Active Directory for accounts that do or do not enforce PIV to log onto networks. Here’s an example filter that you can use in a PowerShell script or Active Directory advanced search to find users based on <em>User Account Control – Smart Card Login Enforced on The User.</em></p>
 
 <p>To find users where the Smart Card Login is enforced on person objects: <br />
-(&amp;(objectCategory=person)(userAccountControl:1.2.840.113556.1.4.803:=262144))</p>
+(&amp; (objectCategory=person) (userAccountControl:1.2.840.113556.1.4.803:=262144))</p>
 
 <p>To find users where the Smart Card Login is not enforced on person objects: <br />
-(&amp;(objectCategory=person)(!userAccountControl:1.2.840.113556.1.4.803:=262144))</p>
+(&amp; (objectCategory=person) (!userAccountControl:1.2.840.113556.1.4.803:=262144))</p>
 
 <p>More details on User Account Control LDAP filters can be found here:
 <a href="http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx">http://social.technet.microsoft.com/wiki/contents/articles/5392.active-directory-ldap-syntax-filters.aspx</a></p>

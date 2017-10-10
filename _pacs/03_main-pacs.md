@@ -23,8 +23,6 @@ horizontal-align: right; }
   <div class="usa-alert">
   <div class="usa-alert-text">
     <p class="usa-alert-text"><H4>Why is metric 2.10 important?</H4></p>
-  <ul>
-    <li>Understanding this user population helps to validate that they have the appropriate access across information systems. </li>      <li>Issuing the appropriate credentials to user populations is meaningless unless agencies are requiring the use of these credentials.</li>
-    </ul>
+To ensure that approved products have been configured.
 </div>
 </div>

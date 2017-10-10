@@ -17,8 +17,8 @@ collection: pacs
 <p>2. Determine/Confirm which validation system is configured to support the reader.</p>
 <ul>
 <li>Log into pivCLASS PACS Services Server</li>
-<li>Open pivCLASS PACS Service Administration Application, log in if necessary.</li>
-<li>Go to Tools > Configure PACS Service.</li>
+<li>Open pivCLASS PACS Service Administration Application, log in if necessary</li>
+<li>Go to Tools > Configure PACS Service</li>
 <li>Click the Reader Services Tab</li>
 <li>In the left panel, expand the “Panels” tree</li>
 <li>For each PAM panel configured: (1) Match the readers therein to the readers inventoried above, and (2) note which Assurance profile the reader is configured.</li>

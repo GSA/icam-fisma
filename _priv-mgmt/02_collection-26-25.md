@@ -20,8 +20,11 @@ collection: priv-mgmt
 >•	See <a href="../priv-mgmt/section-resources">Section Resources</a> for examples of shared accounts.
 
 <p>
-4. Of the accounts identified in Step 2, identify the number of <i>users</i> of the accounts. Take care to eliminate duplicates from the count if two accounts are researched and identified to be assigned to the same person. Record this number for Metric 2.5.
-<img src="../img/recycle.png" alt="Chart logo" style="width:3%" align="middle"></p>
+4. Of the accounts identified in Step 2, identify the number of <i>users</i> of the accounts. Record this number for Metric 2.5. <img src="../img/recycle.png" alt="Chart logo" style="width:3%" align="center">
+<ul>
+<li> These are privileged users. Take care to eliminate duplicates from the count if two accounts are researched and identified to be assigned to the same person.</li>
+</ul>
+</p>
 
 ![aha logo](../img/aha.png){:style="width:45px;float:left;"}
 <style>

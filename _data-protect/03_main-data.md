@@ -23,6 +23,6 @@ horizontal-align: right; }
   <div class="usa-alert">
   <div class="usa-alert-text">
     <p class="usa-alert-text"><H4>Why is Metric 2.11 important?</H4>
-    Issuing the appropriate credentials to user populations is meaningless unless agencies require the use of these credentials. Improper authentication of credentials may put an agency at risk.</p>
+    Issuing the appropriate credentials to user populations is meaningless unless your agency requires the use of these credentials. Improper authentication of credentials may put your agency at risk.</p>
 </div>
 </div>

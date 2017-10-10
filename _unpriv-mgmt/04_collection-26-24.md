@@ -20,7 +20,10 @@ collection: unpriv-mgmt
 <li>See <a href="../priv-mgmt/section-resources">Section Resources</a> for examples of shared accounts.</li>
 </ul>
 <p>
-4. Of the accounts identified in Step 2, identify the number of <i>users</i> of the accounts. Take care to eliminate duplicates from the count if two accounts are researched and identified to be assigned to the same person. Record this number for Metric 2.4. <img src="../img/recycle.png" alt="Chart logo" style="width:3%" align="middle">
+4. Of the accounts identified in Step 2, identify the number of <i>users</i> of the accounts. Record this number for Metric 2.4. <img src="../img/recycle.png" alt="Chart logo" style="width:3%" align="center">
+<ul>
+<li> These are unprivileged users. Take care to eliminate duplicates from the count if two accounts are researched and identified to be assigned to the same person.</li>
+</ul>
 </p>
 <br>
 ![light bulb logo](../img/ahabrn.png){:style="width:45px;float:left;"}

@@ -8,7 +8,7 @@ collection: ac-rev
 <br>
 ## Metric 2.9
 ---
-Your agency may have a documented and published policy regarding information security, information assurance, cybersecurity, or similar function. This enterprise-level policy may articulate standards or procedures for technology and business processes regarding ICAM. Designated components or bureaus within an agency may also document and maintain organization-specific policies. Please refer to the policy(ies) that governs your organization's information security practices.
+Your agency may have a documented and published policy regarding information security, information assurance, cybersecurity, or similar function. This enterprise-level policy may articulate standards or procedures for technology and business processes regarding ICAM. Designated components or bureaus within your agency may also document and maintain organization-specific policies. Please refer to the policy(ies) that governs your organization’s information security practices.
 ### Where Do I Start?
 <p>
 1. If you <i>don’t</i> have a policy that enumerates enterprise-level ICAM standards and procedures, please respond with <i>N/A</i>.</p>
@@ -42,7 +42,7 @@ Reviewing user privileges is important to managing risk in an organization becau
 <p>
 1. If you <i>don’t</i> have a policy that enumerates enterprise-level ICAM standards and procedures, or your existing ICAM policies <i>don’t</i> provide targets or frequency for the review of user privileges for network and system access, please respond with <i>N/A</i>.</p>
 <p>
-2. If your ICAM policy dictates the timelines and frequency of user privilege reviews, please provide this target for Metric 2.9.1. </p>
+2. If your ICAM policy dictates the timelines and frequency of user privilege reviews, please provide these target(s) for Metric 2.9.1. </p>
 
 ![focus  logo](../img/focus.png){:style="width:40px;float:left;"}
 <style>
@@ -65,7 +65,7 @@ A <i>(User) Privilege</i> is a right granted to an individual, a program, or a p
 <p>
 1.	If you <i>don’t</i> have a policy that enumerates enterprise-level ICAM standards and procedures, or your existing ICAM policies <i>don’t</i> provide procedures for provisioning privileges upon entry, revoking privileges upon exit, and modifying privileges based on changes in duties, please respond with <i>N/A</i>.</p>
 <p>
-2.	If your ICAM policy dictates procedures for provisioning privileges upon entry, revoking privileges upon exit, and modifying privileges based on changes in duties, please provide this target for Metric 2.9.1.</p>
+2.	If your ICAM policy dictates procedures for provisioning privileges upon entry, revoking privileges upon exit, and modifying privileges based on changes in duties, please provide these reference procedures for Metric 2.9.1.</p>
 
 ![focus  logo](../img/focus.png){:style="width:40px;float:left;"}
 <style>
@@ -77,6 +77,6 @@ vertical-align: top; }
   <div class="usa-alert-text">
 <p class="usa-alert-text"><H4>Important Terms</H4></p>
 <p>
-<i>Provisioning</i> and <i>De-provisioning</i>: Defined in the <a href="https://arch.idmanagement.gov/">FICAM Architecture</a> as the process of <i>linking</i> and <i>unlinking</i> access permissions for a person or entity to a protected resource.</p>
+<i>Provisioning</i> and <i>De-provisioning</i>: Described in the <a href="https://arch.idmanagement.gov/">FICAM Architecture</a> as the process of <i>linking</i> and <i>unlinking</i> access permissions for a person or entity to a protected resource.</p>
 </div>
 </div>
