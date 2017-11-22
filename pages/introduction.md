@@ -83,10 +83,6 @@ There are <b>21</b> ICAM-related metrics in the <a href="https://www.dhs.gov/sit
     <td>Frequency with which privileged user privileges are reviewed, according to agency policy.</td>
   </tr>
   <tr>
-    <td><a href="priv-mgmt/"><b>2.5.6 NEW</b></a></td>
-    <td>Percent (%) of privileged users with network accounts that have a technical control limiting access to only <a href="tools-tips/fisma-def">trusted sites</a>.</td>
-  </tr>
-  <tr>
     <td><a href="priv-mgmt/"><b>2.6.1</b></a></td>
     <td>Number of users with <a href="tools-tips/fisma-def">privileged local system accounts.</a></td>
   </tr>

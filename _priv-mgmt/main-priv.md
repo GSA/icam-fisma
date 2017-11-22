@@ -6,10 +6,10 @@ permalink: /priv-mgmt/
 
 ---
 ---
- <h3>This section covers FISMA metrics around privileged accounts and users (2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.5.6, 2.6.1, 2.6.2, 2.7.2, 2.8.2). </h3>
+ <h3>This section covers FISMA metrics around privileged accounts and users (2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.6.1, 2.6.2, 2.7.2, 2.8.2). </h3>
 <img src="../img/graph.png" alt="logo"/>
 
-### <b>Metrics 2.5.1-2.5.6 References:</b> [OMB M-18-02](https://insidecybersecurity.com/sites/insidecybersecurity.com/files/documents/oct2017/cs2017_OMB.pdf), [NIST 800-53r4 IA-2(2)](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf), [NIST SP 800-63](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf)
+### <b>Metrics 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.6 References:</b> [OMB M-18-02](https://insidecybersecurity.com/sites/insidecybersecurity.com/files/documents/oct2017/cs2017_OMB.pdf), [NIST 800-53r4 IA-2(2)](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf), [NIST SP 800-63](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-2.pdf)
 
 ### [Privileged Network Users and Authentication](collection-251-253)
 
@@ -85,10 +85,6 @@ horizontal-align: right; }
 A user needs the correct level of access to the right resources to fulfill their job function. Reviewing and correcting access supports least privilege, and policies such as segregation of duties.
 </div>
 </div>
-
-### [Privileged User Network Accounts with Technical Controls](collection-256)
-
-| 2.5.6 | Percent (%) of privileged users with network accounts that have a technical control limiting access to only trusted sites.
 
 ### Metrics 2.6.1-2.6.2 Reference: [NIST 800-53r4 IA-2(3)](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf)
 

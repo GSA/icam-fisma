@@ -30,8 +30,5 @@ A user account with elevated privileges which is typically allocated to system a
 **Privileged Network Account** <br>
 A network account with elevated privileges, which is typically allocated to system administrators, network administrators, and others who are responsible for system/application control, monitoring, or administration functions.
 
-**Trusted Website** <br>
-A website that has been approved (i.e., whitelisted) by agency security officials.
-
 **Unprivileged Network Account** <br>
 Any account that is not a privileged network account.
