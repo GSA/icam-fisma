@@ -457,7 +457,7 @@ th {
   src: url("../fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../fonts/merriweather-bold-webfont.woff") format("woff"), url("../fonts/merriweather-bold-webfont.ttf") format("truetype");
 }
 
-/* Apply a natural box layout model to all elements, but allowing components to 
+/* Apply a natural box layout model to all elements, but allowing components to
 change */
 html {
   box-sizing: border-box;

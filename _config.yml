@@ -55,7 +55,7 @@ exclude:
 
 navigation:
 - text: Introduction
-  url: index.html
+  url: ""
   internal: true
   coll: false
 - text: Approach
@@ -71,28 +71,23 @@ navigation:
   internal: true
   coll: true
   collname: tools-tips
-- text: Privileged Accounts & Users
-  url: priv-mgmt/main-priv
+- text: Identity and Access Management
+  url: id-access/
+  internal: true
+  coll: true
+  collname: id-access
+- text: Privileged Networks and Users
+  url: priv-mgmt/
   internal: true
   coll: true
   collname: priv-mgmt
-- text: Unprivileged Accounts & Users
-  url: unpriv-mgmt/main-unpriv
+- text: Unprivileged Networks and Users
+  url: unpriv-mgmt/
   internal: true
   coll: true
   collname: unpriv-mgmt
-- text: Access & Credential Review
-  url: ac-rev/main-ac
-  internal: true
-  coll: true
-  collname: ac-rev
-- text: Physical Access Control Systems (PACS)
-  url: pacs/main-pacs
-  internal: true
-  coll: true
-  collname: pacs
-- text: Data Protection & Remote Access
-  url: data-protect/main-data
+- text: Data Protection
+  url: data-protect/
   internal: true
   coll: true
   collname: data-protect
@@ -122,24 +117,28 @@ collections:
     label: "User Guides"
     permalink: /userconfig/:path/
     output: true
+  id-access:
+    label: "Identity and Access Management"
+    permalink: /id-access/:path
+    output: true
   priv-mgmt:
-    label: "Privileged Accounts & Users"
+    label: "Privileged Networks and Users"
     permalink: /priv-mgmt/:path/
     output: true
   unpriv-mgmt:
-    label: "Unprivileged Accounts & Users"
+    label: "Unprivileged Networks and Users"
     permalink: /unpriv-mgmt/:path/
     output: true
-  ac-rev:
-    label: "Access & Credential Review"
-    permalink: /ac-rev/:path/
+  priv-net-local:
+    label: "Privileged Network and Local System Accounts"
+    permalink: priv-net-local/:path/
     output: true
-  pacs:
-    label: "Physical Access Control Systems (PACS)"
-    permalink: /pacs/:path/
+  unpriv-net-local:
+    label: "Unprivileged Network and Local System Accounts"
+    permalink: unpriv-net-local/:path/
     output: true
   data-protect:
-    label: "Data Protection & Remote Access"
+    label: "Data Protection"
     permalink: /data-protect/:path/
     output: true
 

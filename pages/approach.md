@@ -5,4 +5,4 @@ permalink: approach
 ---
 ---
 *The approach detailed below describes the methodology behind this guidance document and explains the organization and sequencing of the collection process.*
-![Approach Graphic](img/Approach.png){:style="width:90%;"}
+![Approach Graphic](img/Approach2.png){:style="width:90%;"}
