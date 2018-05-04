@@ -71,26 +71,21 @@ navigation:
   internal: true
   coll: true
   collname: tools-tips
-- text: Identity and Access Management
-  url: id-access/
-  internal: true
-  coll: true
-  collname: id-access
-- text: Privileged Networks and Users
-  url: priv-mgmt/
-  internal: true
-  coll: true
-  collname: priv-mgmt
-- text: Unprivileged Networks and Users
+- text: Unprivileged Network Users
   url: unpriv-mgmt/
   internal: true
   coll: true
   collname: unpriv-mgmt
-- text: Data Protection
-  url: data-protect/
+- text: Privileged Network Users
+  url: priv-mgmt/
   internal: true
   coll: true
-  collname: data-protect
+  collname: priv-mgmt
+- text: Network and Local System Accounts
+  url: network-local/
+  internal: true
+  coll: true
+  collname: network-local
 - text: Next Steps
   url: next
   internal: true
@@ -113,33 +108,17 @@ collections:
     label: "Tools and Tips"
     permalink: /tools-tips/:path/
     output: true
-  userconfig:
-    label: "User Guides"
-    permalink: /userconfig/:path/
-    output: true
-  id-access:
-    label: "Identity and Access Management"
-    permalink: /id-access/:path
-    output: true
-  priv-mgmt:
-    label: "Privileged Networks and Users"
-    permalink: /priv-mgmt/:path/
-    output: true
   unpriv-mgmt:
-    label: "Unprivileged Networks and Users"
+    label: "Unprivileged Network Users"
     permalink: /unpriv-mgmt/:path/
     output: true
-  priv-net-local:
-    label: "Privileged Network and Local System Accounts"
-    permalink: priv-net-local/:path/
+  priv-mgmt:
+    label: "Privileged Network Users"
+    permalink: /priv-mgmt/:path/
     output: true
-  unpriv-net-local:
-    label: "Unprivileged Network and Local System Accounts"
-    permalink: unpriv-net-local/:path/
-    output: true
-  data-protect:
-    label: "Data Protection"
-    permalink: /data-protect/:path/
+  network-local:
+    label: "Network and Local System Accounts"
+    permalink: network-local/:path/
     output: true
 
   #https://github.com/jekyll/jekyll/issues/2346
