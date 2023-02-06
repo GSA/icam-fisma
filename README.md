@@ -1,2 +1,2 @@
 # icam-fisma
-A guide on how to collect FISMA metrics, and meet the requirements.
+A guide on how to collect 2017 FISMA metrics, and meet the requirements.
